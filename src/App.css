@@ -1,0 +1,127 @@
+html {
+  height: 100%; /* We still have to fix html height */
+}
+
+body {
+  min-height: 100%;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.bg-fire{
+  background-image:url(./images/ed-pastor-with-freedom-arena1.jpg);
+  background-position: center;
+  background-size:cover;
+  background-repeat: no-repeat;  
+  width: 100vw;
+  height: 100vh;  
+}
+.church-introduction{
+  font-size:1.5rem;
+  line-height:150%;
+}
+
+.bg{
+  background-image:url(./images/img21.jpg);
+  width:100%;
+  height:100%;
+  background-size:cover;
+}
+/* .ed-prophet-siging{
+  background-image:url(./images/ed-singing.jpg);
+  background-position: center;
+  background-size:cover;
+  background-repeat: no-repeat;  
+  width: 100vw;
+  height: 100vh;
+} */
+
+
+.bg-footer{
+  background-image:url(./images/fire-anointing.jpg);
+  background-position: center;
+  /* background-size:cover; */
+  background-repeat: no-repeat;  
+  width:100%;
+  height:100%;
+  padding-top:40px;
+  padding-bottom:40px;
+  color:white;
+  
+}
+
+.bg-ed-preaching{
+  background-image:url(./images/ed-pastor-with-freedom-arena1.jpg);
+  background-position: center;
+  /* background-size:cover; */
+  background-color:black;
+  background-repeat: no-repeat;  
+  width:100%;
+  height:100%;
+  HEIGHT:700PX;
+  padding-top:40px;
+  padding-bottom:40px;
+  color:white;
+}
+
+.vk-bg-container{
+  color:#000007;
+  font-size:1rem;
+  line-height: 150%;
+  text-align: center;
+}
+.vkbg{
+  background:white;
+  border-radius:3rem;
+}
+.vk-title1{
+  padding:40px 30px 30px 30px;
+}
+.vk-title2{
+  padding:30px;
+  text-align: center;
+}
+
+.vk-bottom-margin{margin-bottom: 70px;}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@media ( min-width: 769px ) and ( max-width: 1023px ) {
+  .react__player{
+     max-width: 50%;
+     max-height: 250px; 
+     margin-right: 20px;
+     
+  }
+}
