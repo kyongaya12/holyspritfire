@@ -19,16 +19,16 @@ const Contact = () => {
                             <div class="mb-3">
                                 <label for="exampleForm" class="form-label">이름</label>
                                 <input type="text" class="form-control" id="exampleForm" placeholder="이름"/>
-</div>
+                            </div>
                             <div class="mb-3">
                                 <label for="exampleFormControlInput1" class="form-label">이멜</label>
                                 <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="이멜 주소"/>
-</div>
-                                <div class="mb-3">
+                            </div>
+                            <div class="mb-3">
                                     <label for="exampleFormControlTextarea1" class="form-label">이멜 내용</label>
                                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
-                                </div>
-                                <button type="submit" class="btn btn-outline-primary">보내셔요</button>
+                            </div>
+                             <button type="submit" class="btn btn-outline-primary">보내셔요</button>
                         </form>
                     </div>
                     </div>

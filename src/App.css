@@ -22,8 +22,13 @@ body {
   height: 100vh;  
 }
 .church-introduction{
-  font-size:1.5rem;
+  font-size:3.5rem;
   line-height:150%;
+  
+  background-color: rgba(0,0,0,0. 5);
+  text-align: center;
+ 
+  display:block;
 }
 
 .bg{
@@ -56,7 +61,7 @@ body {
 }
 
 .bg-ed-preaching{
-  background-image:url(./images/ed-pastor-with-freedom-arena1.jpg);
+  background-image:url(./images/ed-pastor-with-freedom-arena.jpg);
   background-position: center;
   /* background-size:cover; */
   background-color:black;
@@ -118,10 +123,15 @@ body {
   }
 }
 @media ( min-width: 769px ) and ( max-width: 1023px ) {
-  .react__player{
+  /* .react__player{
      max-width: 50%;
      max-height: 250px; 
      margin-right: 20px;
      
+  } */
+
+  .church-introduction{
+    font-size:1.5rem;
+    
   }
 }
