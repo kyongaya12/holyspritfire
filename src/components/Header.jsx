@@ -38,7 +38,7 @@ const Header = () => {
                             
                             
                         </ul>     
-                    <NavLink className="navbar-brand mx-auto fw-bold" to="/">에드 씬트로넬리</NavLink> 
+                    <NavLink className="navbar-brand mx-auto fw-bold" to="/">Holy Sprit Fire</NavLink> 
                     {/* <Login/>
                     <Signup/>
                     <CartBtn/> */}
