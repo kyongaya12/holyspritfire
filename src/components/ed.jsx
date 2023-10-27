@@ -28,7 +28,6 @@ const ed = () => {
         <section className=""> 
      
      <div className="container vk-bg-container" >
-     
                 <div className="row p4-4 ">
                     <div className="col-md-12 py-4">
                         <h1 className="text-primary fw-bold mb-4 text-center vk-title1"> 오중사역 교회(사도, 선지자, 전도자, 목사,교사) </h1>

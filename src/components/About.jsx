@@ -7,6 +7,7 @@ const About = () => {
             <div className="container py-5 my-5">
                 <div className="row">
                 <div class="clearfix">
+                    test
                 <img className="ed-prophet-siging img-fluid" />
                 <img src="/assets/images/home/ed-teaching.JPG" alt="About Us" className="col-md-6 float-md-end mb-3 ms-md-3" />
                         <h1 className="text-primary fw-bold mb-4">예언자 에드 목사님의 사역 </h1>
