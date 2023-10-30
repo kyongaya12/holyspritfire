@@ -1,16 +1,16 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
+import imageCall from './images/ed-singing.jpg'
 
 const About = () => {
     return (
         <div>
             <div className="container py-5 my-5">
                 <div className="row">
-                <div class="clearfix">
-                    test
-                <img className="ed-prophet-siging img-fluid" />
-                <img src="/assets/images/home/ed-teaching.JPG" alt="About Us" className="col-md-6 float-md-end mb-3 ms-md-3" />
-                        <h1 className="text-primary fw-bold mb-4">예언자 에드 목사님의 사역 </h1>
+                <div class="clearfix">             
+                <div className="ed-prophet-singing img-fluid" /> 
+                 <img src={imageCall} alt="About Us" className="col-md-6 float-md-end mb-3 ms-md-3" />
+                        <h1 className="text-primary fw-bold ed-h1 py-4 mb-4">예언자 에드 목사님의 사역 </h1>
                         <h3 className="py-4">가장 친한 친구인 성령께 감사와 찬양</h3>
                         <p>
                         예언자 에드 목사님의 사역은 세계 끝까지 그를 이끄는 성령의 힘에 의해 이루어진 예언,치유, 축사로 복음을 전파하는 데에 초점을 맞추고 있습니다.</p>

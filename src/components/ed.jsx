@@ -25,8 +25,7 @@ const ed = () => {
 </div></div>
 
      </section>
-        <section className=""> 
-     
+        <section className="">      
      <div className="container vk-bg-container" >
                 <div className="row p4-4 ">
                     <div className="col-md-12 py-4">
