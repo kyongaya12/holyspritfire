@@ -1,5 +1,5 @@
 import React from 'react'
-
+import imageCall from './images/ed-singing.jpg'
 const Contact = () =>
  {
     return (
@@ -13,7 +13,7 @@ const Contact = () =>
                 </div>
                 <div className="row">
                     <div className="col-md 5 d-flex justify-content-center">
-                        <img src="/assets/images/home/ed-singing.jpg" alt="Contact Us" className="img-fluid" />
+                        <img src={imageCall} alt="Contact Us" className="img-fluid" />
                     </div>
                     <div className="col-md-6">
                         <form >
