@@ -5,8 +5,12 @@ const ed = () => {
     
   return (
     <div >
-     <section className="bg-ed-preaching img-fluid"> 
+     <section className="bg-ed-preaching img-fluid">
+       {/* <div class="left"></div>
+     <div class="right"> */}
+    
      <div className="container vk-bg-container" >
+     
      <div className="row p4-4 ">
                     <div className="col-md-12 py-4">
                       <h1 className="text-primary fw-bold mb-4 text-center  vk-title1">  </h1>
@@ -23,14 +27,19 @@ const ed = () => {
 </div>
 </div>
 </div></div>
-
+{/* </div> */}
      </section>
-        <section className="">      
+        <section className="ed-prophet-about">      
      <div className="container vk-bg-container" >
                 <div className="row p4-4 ">
                     <div className="col-md-12 py-4">
                         <h1 className="text-primary fw-bold mb-4 text-center vk-title1"> 오중사역 교회(사도, 선지자, 전도자, 목사,교사) </h1>
-                    <p>교회에 가서 지쳐진 영혼들이 왔는데도 주님의 답이 없어서 실망하지않어셨습니까?</p>
+
+                        <p>좌절, 지연, 방해, 막힘 및 좌절은 어디에서 오는 것인가요?  해결책이있나요?</p>
+                    <p>예수님은 악마의 작업을 파괴하기 위해서 오셨습니다.</p>
+                    <p>성령의 능력이 천국 곳곳에서 수천명을 구원하고 치료하며 해방시키는 것을 지켜보십시요.</p>
+                    
+                    {/* <p>교회에 가서 지쳐진 영혼들이 왔는데도 주님의 답이 없어서 실망하지않어셨습니까?</p>
                   <p>정말 하나님이 살아 계시는 걸까요? 왜 방언 기도를 해야 하는 거죠? 사단의 공격을 어떻게 방어하는 거죠? 그리고 죽고 나면 모든게 끝나는 것이 아닌가요? </p>
                   <p>왜 예수님을 구원자로 맞아들여야 하는거죠? 왜 성령님이 필요한 거죠?</p>
                   <p>왜 자유스럽게 인생을 마음대로 살수 없는 거죠?</p>
@@ -43,7 +52,7 @@ const ed = () => {
 뉴욕, 펜셀베니아, 시카고, 캘리포니아, 플로리다, 미시건,캔터키 여러 곳을 순회하시고, 세계여러나라들을 순회 하십니다. </p>
  
 <p>제가 당신을 에드 씬트로넬리 사역장에 초대하고 싶습니다. 만일 여러분이 에드 씬트로넬리 사역에 관심이 있어시면, 연락하시길 바랍니다.</p>
-<h2>718-708-1363</h2>
+<h2>718-708-1363</h2> */}
 </div>
 ​</div></div>    
         

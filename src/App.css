@@ -41,6 +41,29 @@ body {
   background-size:cover;
 }
 
+.right{
+width:50%;
+min-height:300px;
+background-color:aquamarine;
+display:flex;
+align-items:center;
+padding:30px;
+border-radius:8px;
+color:white;
+margin-left:-150px;
+}
+.ed-prophet-about{
+  background-color:#6d145b;
+  height:100%;
+  display:block;
+  padding-bottom:100px;
+}     
+.ed-prophet-about p{
+ color:#f1f1f1;
+font-size:1.5rem;
+line-height: 150%;
+
+}  
 .ed-prophet-singing{
   background-image:url(./images/ed-singing.jpg);
   background-position: center;
@@ -65,7 +88,8 @@ body {
 }
 
 .bg-ed-preaching{
-  background-image:url(./images/ed-pastor-with-freedom-arena.jpg);
+  background-image:url(./images/ed-pastor-in-pakistan-crusade.jpg);
+ 
   background-position: center;
   /* background-size:cover; */
   background-color:black;
@@ -85,6 +109,7 @@ body {
   font-size:1rem;
   line-height: 150%;
   text-align: center;
+ 
 }
 .vkbg{
   background:white;
