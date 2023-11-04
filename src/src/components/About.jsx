@@ -1,18 +1,19 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-import imageCall from '../images/ed-pastor-in-pakistan-crusade.jpg'
+import imageCall from '../images/ed-pastor-with-freedom-arena.jpg'
 
 const About = () => {
     return (
         <div>
+            
             <div className="container py-5 my-5">
                 <div className="row">
                 {/* <h1 className="text-primary fw-bold text-center py-4 mb-4"> 예언자 에드 목사님의 사역</h1> */}
                 <h1 className="text-primary fw-bold text-center py-4 mb-4">가장 친한 친구인 성령님께 감사와 찬양 </h1>
-                <div class="clearfix">         
-               
+                  
+               <img src={imageCall} alt="About Us" className="image-fluid" ></img>
              
-                 <img src={imageCall} alt="About Us" className="col-md-6 float-md-end mb-3 ms-md-3" />
+              <div className="col-md-6 float-md-end mb-3 ms-md-3" />
                      
     
                         <p>
@@ -34,8 +35,9 @@ const About = () => {
                   
                 </div>
             </div>
-        </div>
+      
     )
 }
+
 
 export default About

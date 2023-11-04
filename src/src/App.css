@@ -72,7 +72,11 @@ line-height: 150%;
   width: 100vw;
   height: 100vh;
 }
-
+.church-leadership{
+  margin-top:-50px;
+  color:red;
+  margin-bottom:50px;
+}
 
 .bg-footer{
   background-image:url(./images/fire-anointing.jpg);
@@ -86,9 +90,14 @@ line-height: 150%;
   color:white;
   
 }
-
+.solution{
+  font-size:3rem;
+  padding:20px;
+  color:yellow;
+}
 .bg-ed-preaching{
-  background-image:url(./images/ed-pastor-with-freedom-arena.jpg);
+  background-image:url(./images/ed-pastor-in-pakistan-crusade.jpg);
+ 
   background-position: center;
   /* background-size:cover; */
   background-color:black;
@@ -116,6 +125,7 @@ line-height: 150%;
 }
 .vk-title1{
   padding:40px 30px 30px 30px;
+  font-size:4rem;
 }
 .vk-title2{
   padding:30px;

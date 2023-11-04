@@ -33,9 +33,11 @@ const ed = () => {
      <div className="container vk-bg-container" >
                 <div className="row p4-4 ">
                     <div className="col-md-12 py-4">
-                        <h1 className="text-primary fw-bold mb-4 text-center vk-title1"> 오중사역 교회(사도, 선지자, 전도자, 목사,교사) </h1>
+                        <h1 className="text-primary fw-bold mb-4 text-center vk-title1"> 오중사역 교회 </h1>
+                        <p class="church-leadership">(사도, 선지자, 전도자, 목사,교사)</p>
 
-                        <p>좌절, 지연, 방해, 막힘 및 좌절은 어디에서 오는 것인가요?  해결책이있나요?</p>
+                        <p>좌절, 지연, 방해, 막힘 및 좌절은 어디에서 오는 것인가요? </p>
+                        <p><b className="solution">해결책</b>이있나요?</p>
                     <p>예수님은 악마의 작업을 파괴하기 위해서 오셨습니다.</p>
                     <p>성령의 능력이 천국 곳곳에서 수천명을 구원하고 치료하며 해방시키는 것을 지켜보십시요.</p>
                     
