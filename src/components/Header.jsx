@@ -16,35 +16,59 @@ const Header = () => {
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
-               
+         
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul className="navbar-nav mb-2 mb-lg-0">
+                      {/* <ul className="navbar-nav mb-2 mb-lg-0">
                             <li className="nav-item">
-                                <NavLink className="nav-link" aria-current="page" to="/">Home</NavLink>
+                                <NavLink className="nav-link" aria-current="page" to="/">홈</NavLink>
                             </li>
-                            {/* <li className="nav-item">
-                                <NavLink className="nav-link" to="/products">Product</NavLink>
-                            </li> */}
+                          
                             <li className="nav-item">
-                                <NavLink className="nav-link" to="/about">About</NavLink>
+                                <NavLink className="nav-link" to="/about">소개</NavLink>
                             </li>
                          
-                            {/* <li className="nav-item">
-                                <NavLink className="nav-link" to="/video">Video</NavLink>
-                            </li> */}
                             <li className="nav-item">
-                                <NavLink className="nav-link" to="/contact">Contact</NavLink>
+                                <NavLink className="nav-link" to="/book">출판</NavLink>
                             </li>
+                            <li className="nav-item">
+                                <NavLink className="nav-link" to="/contact">연락처</NavLink>
+                            </li>                          
                             
+                        </ul>   */}
+
+                <nav class="menu-link">
+                    <ul>
+                            <li>
+                                <NavLink className="btn btn-outline-primary ms-2"  to="/">홈</NavLink>
+                            </li>                          
+                            <li>
+                                <NavLink className="btn btn-outline-primary ms-2" to="/about">소개</NavLink>
+                            </li>                         
+                            <li>
+                                <NavLink className="btn btn-outline-primary ms-2" to="/book">출판</NavLink>
+                            </li>
+                            <li>
+                                <NavLink className="btn btn-outline-primary ms-2" to="/contact">연락처</NavLink>
+                            </li>                           
                             
-                        </ul>     
-                    <NavLink className="navbar-brand mx-auto fw-bold" to="/">Holy Sprit Fire</NavLink> 
+                    </ul>   
+                </nav>
+                       
+                 <NavLink className="navbar-brand mx-auto fw-bold" to="/">Holy Sprit Fire(성령불)</NavLink>
                     {/* <Login/>
                     <Signup/>
                     <CartBtn/> */}
+                    <nav class="menu-link">
+                    <ul>
+                    <li><a href="https://www.edcitronnelliministries.com/events" className="btn btn-outline-primary ms-2" target="_blank">스케줄</a></li>
+                    <li><a href="https://www.edcitronnelliministries.com/" className="btn btn-outline-primary ms-2" target="_blank">휍사이트</a></li>
+                    <li><a href="https://www.youtube.com/@EdCitronnelliMinistries" className="btn btn-outline-primary ms-2" target="_blank">유튜브 </a></li></ul>
+                    </nav>
+                   {/*  <div className="menu-left">
+                   
                     <Youtube/>
                     <Website/>
-                    <Market/></div>
+                    <Market/></div>*/}</div> 
                  
                 </div>
             </nav>

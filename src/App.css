@@ -153,7 +153,52 @@ line-height: 150%;
 .App-link {
   color: #61dafb;
 }
+.video-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px; /* Optional: Set max-width for the container */
+  width: 100%;
+}
 
+.video-wrapper {
+  margin-bottom: 16px; /* Optional: Add margin between videos */
+}
+.player-wrapper {
+  position: relative;
+  padding-top: 56.25%; /* 16:9 aspect ratio */
+}
+
+.react-player {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.menu-link {
+ 
+  overflow: hidden;
+}
+
+.menu-link ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-link li {
+  float: left;
+}
+
+.menu-link a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.menu-link a:hover { 
+  color: black;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -174,4 +219,29 @@ line-height: 150%;
     font-size:1.5rem;
     width:100%;    
   }
+}
+@media screen and (max-width: 769px) {
+  .menu-link li {
+      float: none;
+      display: block;
+      text-align: left; 
+      padding:10px;   
+  }
+  .menu-link li a{
+    text-align:left;
+    font-size:1.5rem;   
+  }
+  .menu-link ul {
+      overflow: hidden;
+      list-style-type: none;
+  }
+
+  .navbar-brand{
+    text-align: center ;      
+    display:block;
+    padding:10px;
+    position:absolute;
+    top:10px;
+    left:100px;
+}
 }

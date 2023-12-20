@@ -1,16 +1,18 @@
 import React from 'react'
 // import ReactPlayer from 'react-player'
+import ReactPlayer from 'react-player'
 
-const ed = () => {
-    
+
+const ed = () => {    
   return (
     <div >
+      {/* <ReactPlayer url="https://www.youtube.com/watch?v=MHRqqWsKaCo"
+      playing={true} />  */}
      <section className="bg-ed-preaching img-fluid">
        {/* <div class="left"></div>
      <div class="right"> */}
     
-     <div className="container vk-bg-container" >
-     
+     <div className="container vk-bg-container" >     
      <div className="row p4-4 ">
                     <div className="col-md-12 py-4">
                       <h1 className="text-primary fw-bold mb-4 text-center  vk-title1">  </h1>
@@ -35,15 +37,19 @@ const ed = () => {
                     <div className="col-md-12 py-4">
                         <h1 className="text-primary fw-bold mb-4 text-center vk-title1"> 오중사역 교회 </h1>
                         <p class="church-leadership">(사도, 선지자, 전도자, 목사,교사)</p>
-
-                        <p>좌절, 지연, 방해, 막힘 및 좌절은 어디에서 오는 것인가요? </p>
-                        <p><b className="solution">해결책</b>이있나요?</p>
-                    <p>예수님은 악마의 작업을 파괴하기 위해서 오셨습니다.</p>
-                    <p>성령의 능력이 천국 곳곳에서 수천명을 구원하고 치료하며 해방시키는 것을 지켜보십시요.</p>
-                    
+                        <div className="no-delay">
+                        <p>좌절, 지연, 방해, 막힘은 어디에서 오는 것인가요? </p>
+                       <p>자기 수련이 부족해서 아니면 성격만 고치면 해결될까요? 성경에선 나쁜영의 세력들이 힘들게 한다고 나왔습니다.</p>
+                  
+                     <p>에베소서 6:12 KRV</p>
+                     <p>우리의 씨름은 혈과 육에 대한 것이 아니요 정사와 권세와 이 어두움의 세상 주관자들과 하늘에 있는 악의 영들에게 대함이라</p>
+                     <p>그럼<b className="solution"> 해결</b> 책이있나요?</p>
+                    <p>예수님은 악마의 작업을 파괴하기 위해서 기름부운자를 세우시고 보내셨습니다</p>
+                    <p>에드 목사님의 기름부움으로 사탄의 막힘을 파괴하시고 놀라운 성령의 활동하심에 동참하셔요. </p>
+                    </div>
                     {/* <p>교회에 가서 지쳐진 영혼들이 왔는데도 주님의 답이 없어서 실망하지않어셨습니까?</p>
                   <p>정말 하나님이 살아 계시는 걸까요? 왜 방언 기도를 해야 하는 거죠? 사단의 공격을 어떻게 방어하는 거죠? 그리고 죽고 나면 모든게 끝나는 것이 아닌가요? </p>
-                  <p>왜 예수님을 구원자로 맞아들여야 하는거죠? 왜 성령님이 필요한 거죠?</p>
+                  <p>왜 예수님을 구원자로 맞아들여야 하는해도 응답이 없을 까요거죠? 왜 성령님이 필요한 거죠?</p>
                   <p>왜 자유스럽게 인생을 마음대로 살수 없는 거죠?</p>
                   <p>이러한 궁금증을 성령님의 나타나심으로 해결해 드립니다. 살아서 역사하는 능력있는 교회에 오셔요.</p>
 <p> 저의 휍사이트 방문을 감사드립니다. 이 교회는 사도 바울이 사역하신 치유, 축사, 예언 이 있는 살아서 역사하는 성령 사역이 있는 교회로써
@@ -62,32 +68,28 @@ const ed = () => {
        <div className="container py-5">
         <div class="row py-5">
     <div class="col-xs-12 col-md-6">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/WM8pTpAnkSA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/WM8pTpAnkSA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     {/* <ReactPlayer url='https://www.youtube.com/embed/WM8pTpAnkSA' autoPlay muted className="react__player"  /> */}
     </div>
     <div class="col-xs-12 col-md-6">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/2XduegbqFTU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/2XduegbqFTU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     {/* <ReactPlayer url='https://www.youtube.com/embed/2XduegbqFTU' autoPlay muted className="react__player"  /> */}
     </div>
    
       </div>
       
       <div class="row py-5">
-      <div class="col-xs-12 col-md-6">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/WM8pTpAnkSA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-    {/* <ReactPlayer url='https://www.youtube.com/embed/2XduegbqFTU' autoPlay muted className="react__player"  /> */}
-    </div>
-    <div class="col-xs-12 col-md-6">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/WM8pTpAnkSA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-    {/* <ReactPlayer url='https://www.youtube.com/embed/2XduegbqFTU' autoPlay muted className="react__player"  /> */}
+      
+   
+    
+    
     </div>
    
       </div> 
       </div>
 
    
-   
-  </div>
+ 
   )
 }
 

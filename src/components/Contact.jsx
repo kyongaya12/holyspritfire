@@ -1,9 +1,12 @@
 import React from 'react'
-import imageCall from './images/ed-singing.jpg'
+import imageCall from './images/ed-singing.jpg';
+import {Link} from 'react-router-dom';
+
 const Contact = () =>
  {
     return (
         <div>
+          
             <div className="container mb-5">
                 <div className="row">
                     <div className="col-12 text-center py-4 my-4">
@@ -16,7 +19,7 @@ const Contact = () =>
                         <img src={imageCall} alt="Contact Us" className="img-fluid" />
                     </div>
                     <div className="col-md-6">
-                        <form >
+                        {/* <form >
                             <div class="mb-3">
                                 <label for="exampleForm" class="form-label">이름</label>
                                 <input type="text" class="form-control" id="exampleForm" placeholder="이름"/>
@@ -30,8 +33,14 @@ const Contact = () =>
                                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
                             </div>
                              <button type="submit" class="btn btn-outline-primary">보내셔요</button>
-                        </form>
-                    </div>
+                        </form> */}
+                       <Link to='javascript:void(0)'
+      onClick={() => window.location = 'mailto:contact@holyspritfire.com'}>
+   
+ Email Address: contact@holyspritfire.com
+</Link>
+에드 신쳐넬리 미니스트리 <br>
+    +1(718)708-1363 </br>    </div>
                     </div>
                 </div>
             </div>
