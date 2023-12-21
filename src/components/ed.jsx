@@ -1,7 +1,7 @@
 import React from 'react'
 // import ReactPlayer from 'react-player'
 import ReactPlayer from 'react-player'
-
+import imageCall from './images/ed-pastor-face.jpg';
 
 const ed = () => {    
   return (
@@ -35,7 +35,7 @@ const ed = () => {
         <section className="ed-prophet-about">      
      <div className="container vk-bg-container" >
                 <div className="row p4-4 ">
-                    <div className="col-md-12 py-4">
+                    <div className="col-md-6 ">
                         <h1 className="text-primary fw-bold mb-4 text-center vk-title1"> 오중사역 교회 </h1>
                         <p class="church-leadership">(사도, 선지자, 전도자, 목사,교사)</p>
                         <div className="no-delay">
@@ -48,6 +48,11 @@ const ed = () => {
                     <p>예수님은 악마의 작업을 파괴하기 위해서 기름부운자를 세우시고 보내셨습니다</p>
                     <p>에드 목사님의 기름부움으로 사탄의 막힘을 파괴하시고 놀라운 성령의 활동하심에 동참하셔요. </p>
                     </div>
+                    </div>
+                    <div className="col-md-6 ">
+                    <div className="image-ed">
+                    <img src={imageCall} alt="ed pastor" className="centered-image img-fluid" />
+                 </div>
                     {/* <p>교회에 가서 지쳐진 영혼들이 왔는데도 주님의 답이 없어서 실망하지않어셨습니까?</p>
                   <p>정말 하나님이 살아 계시는 걸까요? 왜 방언 기도를 해야 하는 거죠? 사단의 공격을 어떻게 방어하는 거죠? 그리고 죽고 나면 모든게 끝나는 것이 아닌가요? </p>
                   <p>왜 예수님을 구원자로 맞아들여야 하는해도 응답이 없을 까요거죠? 왜 성령님이 필요한 거죠?</p>

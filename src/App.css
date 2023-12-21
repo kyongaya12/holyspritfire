@@ -42,7 +42,20 @@ body {
   transform:translateX(-50%);
   padding:20px;
 }
+.image-ed{
+  position:relative;
+  height:100vh;
+  margin-top:30px;
+}
 
+.centered-image{
+position:absolute;
+top:50%;
+left:50;
+transform:translate(-50%,-50%);
+max-width:100%;
+max-height:100%;
+}
 .bg{
   background-image:url(./images/img21.jpg);
   width:100%;
@@ -208,6 +221,7 @@ line-height: 150%;
 .menu-link a:hover { 
   color: black;
 }
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
