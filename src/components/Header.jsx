@@ -24,7 +24,7 @@ const Header = () => {
                             </li>
                           
                             <li className="nav-item">
-                                <NavLink className="nav-link" to="/about">소개</NavLink>
+                                <NavLink className="nav-link "  to="/about">소개</NavLink>
                             </li>
                          
                             <li className="nav-item">
@@ -39,7 +39,7 @@ const Header = () => {
                 <nav class="menu-link">
                     <ul>
                             <li>
-                                <NavLink className="btn btn-outline-primary ms-2"  to="/">홈</NavLink>
+                                <NavLink className="btn btn-outline-primary ms-2"  to="/home">홈</NavLink>
                             </li>                          
                             <li>
                                 <NavLink className="btn btn-outline-primary ms-2" to="/about">소개</NavLink>
@@ -49,8 +49,7 @@ const Header = () => {
                             </li>
                             <li>
                                 <NavLink className="btn btn-outline-primary ms-2" to="/contact">연락처</NavLink>
-                            </li>                           
-                            
+                            </li>  
                     </ul>   
                 </nav>
                        
@@ -62,14 +61,14 @@ const Header = () => {
                     <ul>
                     <li><a href="https://www.edcitronnelliministries.com/events" className="btn btn-outline-primary ms-2" target="_blank">스케줄</a></li>
                     <li><a href="https://www.edcitronnelliministries.com/" className="btn btn-outline-primary ms-2" target="_blank">휍사이트</a></li>
-                    <li><a href="https://www.youtube.com/@EdCitronnelliMinistries" className="btn btn-outline-primary ms-2" target="_blank">유튜브 </a></li></ul>
+                    <li><a href="https://www.youtube.com/@EdCitronnelliMinistries" className="btn btn-outline-primary ms-2" target="_blank">유튜브 </a></li>
+                    </ul>
                     </nav>
-                   {/*  <div className="menu-left">
-                   
+                    {/* <div className="menu-left">                   
                     <Youtube/>
                     <Website/>
-                    <Market/></div>*/}</div> 
-                 
+                    <Market/></div> </div> */}
+                 </div>
                 </div>
             </nav>
         </>

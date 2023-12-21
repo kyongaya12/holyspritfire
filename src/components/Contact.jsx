@@ -9,7 +9,7 @@ const Contact = () =>
           
             <div className="container mb-5">
                 <div className="row">
-                    <div className="col-12 text-center py-4 my-4">
+                    <div className="col-12 text-center my-4">
                         <h1>연락처</h1>
                         <hr />
                     </div>
@@ -34,13 +34,13 @@ const Contact = () =>
                             </div>
                              <button type="submit" class="btn btn-outline-primary">보내셔요</button>
                         </form> */}
-                       <Link to='javascript:void(0)'
-      onClick={() => window.location = 'mailto:contact@holyspritfire.com'}>
-   
- Email Address: contact@holyspritfire.com
+                        <h1>선지자 에드 목사님 사역에 관심있어신분 </h1>
+                        <h2></h2>
+                        <h2>이멜 신청</h2>
+                       <Link to='javascript:void(0)' onClick={() => window.location = 'mailto:contact@holyspritfire.com'}>   
+                       contact@holyspritfire.com
 </Link>
-에드 신쳐넬리 미니스트리 <br>
-    +1(718)708-1363 </br>    </div>
+  </div>
                     </div>
                 </div>
             </div>

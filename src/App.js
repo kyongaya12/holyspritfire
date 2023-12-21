@@ -1,6 +1,8 @@
 import './App.css';
 import Header from './components/Header';
+import Headers from './components/Headers';
 import Footer from './components/Footer'
+import Book from './components/Book'
 import Home from './components/Home'
 import About from './components/About'
 import Product from './components/Product'
@@ -18,11 +20,13 @@ import Checkout from './components/Checkout'
 function App() {
   return (
     <>
+    {/* <Headers/> */}
       <Header/>
       <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/products" component={Product} />
         <Route exact path="/products/:id" component={ProductDetail} />
+        <Route exact path="/book" component={Book} />
         <Route exact path="/cart" component={Cart} />
         <Route exact path="/checkout" component={Checkout} />
         <Route exact path="/video" component={Video} />
