@@ -17,8 +17,9 @@ const ed = () => {
                     <div className="col-md-12 py-4">
                       <h1 className="text-primary fw-bold mb-4 text-center  vk-title1">  </h1>
                         <div className='text-white py-4 church-introduction'>
+<p>선지자 에드 씬트로넬리 </p>
 <p>강력한 성령사역</p><p>예언, 치유, 축사 </p>
-<p>문제 해결과 놀라운 기적이 있는곳</p> 
+{/* <p>문제 해결과 놀라운 기적이 있는곳</p>  */}
 {/*   
  <p>  이 교회는 성령님의 인도아래, 씨니어 예언자이신 에드 씬트로넬리께서 지휘 하시고 쥬이어 예언자이신 조지 땡찬은 뉴욕에서 사역 하시는 분입니다. 
 

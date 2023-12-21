@@ -37,8 +37,8 @@ const Contact = () =>
                         <h1>선지자 에드 목사님 사역에 관심있어신분 </h1>
                         <h2></h2>
                         <h2>이멜 신청</h2>
-                       <Link to='javascript:void(0)' onClick={() => window.location = 'mailto:contact@holyspritfire.com'}>   
-                       contact@holyspritfire.com
+                       <Link to='javascript:void(0)' onClick={() => window.location = 'mailto:holyspritfire7@gmail.com'}>   
+                       holyspritfire7@gmail.com
 </Link>
   </div>
                     </div>
