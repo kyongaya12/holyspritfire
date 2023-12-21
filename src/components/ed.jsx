@@ -74,11 +74,11 @@ const ed = () => {
        <div className="container py-5">
         <div class="row py-5">
     <div class="col-xs-12 col-md-6">
-    <iframe width="100%" height="315" src="https://www.youtube.com/embed/WM8pTpAnkSA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe width="100%" height="325" src="https://www.youtube.com/embed/WM8pTpAnkSA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     {/* <ReactPlayer url='https://www.youtube.com/embed/WM8pTpAnkSA' autoPlay muted className="react__player"  /> */}
     </div>
     <div class="col-xs-12 col-md-6">
-    <iframe width="100%" height="315" src="https://www.youtube.com/embed/2XduegbqFTU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe width="100%" height="325" src="https://www.youtube.com/embed/2XduegbqFTU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     {/* <ReactPlayer url='https://www.youtube.com/embed/2XduegbqFTU' autoPlay muted className="react__player"  /> */}
     </div>
    
