@@ -17,14 +17,14 @@ const ed = () => {
                 <div className="row p4-4 ">
                     <div className="col-md-6 ">
                         <h1 className="boxstyle text-primary fw-bold mb-4 text-center vk-title1"> 오중사역 교회 </h1>
-                        <p class="church-leadership">(사도, 선지자, 전도자, 목사,교사)222</p>
+                        <p class="church-leadership">(사도, 선지자, 전도자, 목사,교사)</p>
                         <div className="no-delay">
                         <p>좌절, 지연, 방해, 막힘은 어디에서 오는 것인가요? </p>
                        <p>자기 수련이 부족해서 아니면 성격만 고치면 해결될까요? 성경에선 나쁜영의 세력들이 힘들게 한다고 나왔습니다.</p>
                   
                      <p>에베소서 6:12 KRV</p>
                      <p>우리의 씨름은 혈과 육에 대한 것이 아니요 정사와 권세와 이 어두움의 세상 주관자들과 하늘에 있는 악의 영들에게 대함이라</p>
-                     <p>그럼<b className="solution"> 해결</b> 책이있나요?</p>
+                     <p>그럼<b className="solution">해결</b>책이있나요?</p>
                     <p>예수님은 악마의 작업을 파괴하기 위해서 기름부운자를 세우시고 보내셨습니다</p>
                     <p>에드 목사님의 기름부움으로 사탄의 막힘을 파괴하시고 놀라운 성령의 활동하심에 동참하셔요. </p>
                     </div>
