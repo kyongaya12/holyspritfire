@@ -1,17 +1,17 @@
 import React from 'react'
 // import video from '../assets/ed-video.mp4'
-import videoSrc from './images/video.mp4'
+import videoSrc from './images/video1.mp4'
 import imageCall from './images/ed-pastor-face.jpg';
 const BgVideo = () => {
   return (
     <div className="bgContainer">
            
         <div className="overlay">
-        {/* <video src={video} type="video/mp4" autoPlay loop muted />    */}
-        <video controls autoPlay loop muted >       
+        <video src={videoSrc} type="video/mp4" autoPlay loop muted />   
+        {/* <video controls autoPlay loop muted >       
         <source src={videoSrc} type="video/mp4" />
         Your browser does not support the video tag.
-      </video>
+      </video> */}
     
       {/* <iframe width="100%" height="100%" src="https://youtube.com/embed/dvRdMU-NyJg?autoplay=1&loop=1" title="YouTube video player" frameborder="0" allowfullscreen></iframe> */}
             <div className="container-vk">
