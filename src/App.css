@@ -1,0 +1,371 @@
+html {
+  height: 100%; /* We still have to fix html height */
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.bgContainer{  
+  width:100%;
+  height:100vh;  
+ position:relative;
+}
+video {
+  width:100%;
+  height:100%;
+  object-fit: cover;
+}
+.container-vk{
+
+position:absolute;
+width:77%;
+height:50%;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+/* display:flex;
+flex-direction:column; */
+}
+
+h2.wlc{
+  font-size:50px;
+  font-weight:700;
+  text-align: center;
+  color:white;
+  }
+  
+  h1.title{
+  font-size:70px;
+  font-weight:900;
+  text-align: center;
+  color:white;
+  }
+  .overlay
+  {
+  position:absolute;
+  background:yellow;
+  display:block;
+  top:10;
+  left:0;
+  width:100%;
+  height:100%;
+  /* background-color:rgba(0,0,0,.4) */
+  }
+h2.wlc{
+  font-size:50px;
+  font-weight:700;
+  
+  }
+  
+  h1.title{
+  font-size:70px;
+  font-weight:900;
+  }
+  .overlay
+  {
+  position:absolute;
+  top:70;
+  left:0;
+  width:100%;
+  height:100%;
+  background-color:rgba(0,0,0,.4)
+  }
+
+.military{background:black;}
+
+.center-content {
+  display: flex;
+  align-items: center;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.bg-fire{
+  background-image:url(./images/ed-pastor-with-freedom-arena1.jpg);
+  background-position: center;
+  background-size:cover;
+  background-repeat: no-repeat;  
+  width: 100vw;
+  height: 100vh;  
+}
+.church-introduction {
+  font-size:3.5rem;
+  line-height:150%;
+  position:absolute;
+  bottom:30px;
+  background-color: rgba(0,0,0,0.5);
+  text-align: center; 
+  display:block;
+  border-radius:10px;
+  left:50%;
+  transform:translateX(-50%);
+  padding:20px;
+}
+.image-ed{
+  position:relative;
+  height:100vh;
+  margin-top:30px;
+}
+.bg-ed-preaching {
+  -webkit-box-shadow: 0px 10px 13px -7px #000000, 0px 5px 15px 5px rgba(0,0,0,0); 
+  box-shadow: 0px 10px 13px -7px #000000, 0px 5px 15px 5px rgba(0,0,0,0);
+  }
+.centered-image{
+position:absolute;
+top:50%;
+left:50;
+transform:translate(-50%,-50%);
+max-width:100%;
+max-height:100%;
+}
+.bg{
+  background-image:url(./images/img21.jpg);
+  width:100%;
+  height:100%;
+  background-size:cover;
+}
+
+.right{
+width:50%;
+min-height:300px;
+background-color:aquamarine;
+display:flex;
+align-items:center;
+padding:30px;
+border-radius:8px;
+color:white;
+margin-left:-150px;
+}
+.ed-prophet-about{ 
+  height:100%;
+  display:block;
+  padding-bottom:100px;
+}     
+.ed-prophet-about p{
+ color:#070000;
+font-size:1.5rem;
+line-height: 150%;
+
+} 
+
+.curved p{
+ 
+  display:block;
+}
+.ed-prophet-singing{
+  background-image:url(./images/ed-singing.jpg);
+  background-position: center;
+  background-size:cover;
+  background-repeat: no-repeat;  
+  width: 100vw;
+  height: 100vh;
+}
+.church-leadership{
+  margin-top:-50px;
+  color:red;
+  margin-bottom:50px;
+}
+
+.bg-footer{
+  background-image:url(./images/fire-anointing.jpg);
+  background-position: center;
+  /* background-size:cover; */
+  background-repeat: no-repeat;  
+  width:100%;
+  height:100%;
+  padding-top:40px;
+  padding-bottom:40px;
+  color:white;
+  
+}
+.solution{
+  font-size:3rem;
+  padding:20px;
+  color:red;
+}
+.bg-ed-preaching{
+  background-image:url(./images/ed-pastor-in-pakistan-crusade.jpg); 
+  background-position: center;
+  /* background-size:cover; */
+  background-color:black;
+  background-repeat: no-repeat;  
+  width:100%;
+  height:100%;
+  HEIGHT:700PX;
+  padding:10px;
+  padding-top:40px;
+  padding-bottom:40px;
+  position: relative;
+  
+}
+
+.vk-bg-container{
+  margin-top:30px;
+  color:#000007;
+  font-size:1rem;
+  line-height: 150%;
+  text-align: center;
+ 
+}
+.custom-margins {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.contact{background:red;height:300px;}
+.vkbg{
+  background:white;
+  border-radius:3rem;
+}
+.vk-title1{
+  padding:40px 30px 30px 30px;
+  font-size:4rem;
+}
+.vk-title2{
+  padding:30px;
+  text-align: center;
+}
+
+.vk-bottom-margin{margin-bottom: 70px;}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.video-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px; /* Optional: Set max-width for the container */
+  width: 100%;
+}
+
+.video-wrapper {
+  margin-bottom: 16px; /* Optional: Add margin between videos */
+}
+.player-wrapper {
+  position: relative;
+  padding-top: 56.25%; /* 16:9 aspect ratio */
+}
+
+.react-player {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.menu-link { 
+  overflow: hidden;
+
+}
+
+.menu-link ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-link li {
+  float: left;
+}
+
+.menu-link a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.menu-link a:hover { 
+  color: black;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@media ( max-width: 769px ) {
+  /* .react__player{
+     max-width: 50%;
+     max-height: 250px; 
+     margin-right: 20px;
+     
+  } */
+
+  .church-introduction{       
+        font-size: 3rem;
+        height: 80%;
+        display: block;
+        padding: 30px;
+        width: 100%; 
+  }
+}
+@media screen and (max-width: 780px) {
+  a.navbar-brand{position:absolute; top:15px;
+    left:100px; display:block;}
+                                                
+  div#navbarSupportedContent {
+    margin-top: 20px;
+}
+  .menu-link li {
+      float: none;
+      display: block;
+      text-align: left; 
+      padding:10px;   
+  }
+  .menu-link li a{
+    text-align:center;
+    font-size:1.5rem;   
+  }
+  .menu-link ul {
+      overflow: hidden;
+      list-style-type: none;
+  }
+li.nav-item { 
+  margin-left:10px;
+  padding: 10px;
+
+}
+
+ul.navbar-nav {         
+padding-left:20px;
+padding-bottom:0px;
+margin-bottom:0px;            
+ }
+ .image-ed{  
+  margin-top:0px;
+}
+
+}
+
+@media screen and (max-width: 425px) {
+  a.navbar-brand{position:absolute; top:15px;
+    left:80px; display:block;}
+  
+}
