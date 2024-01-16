@@ -8,9 +8,65 @@ body {
   margin: 0;
   padding: 0;
 }
-.btn-outline-primary {
-  outline: none !important;
+
+.bgContainer{  
+  width:100%;
+  height:100vh;  
+ position:relative;
 }
+video {
+  width:100%;
+  height:100%;
+  object-fit: cover;
+}
+.container-vk{
+position:absolute;
+width:77%;
+height:50%;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+/* display:flex;
+flex-direction:column; */
+}
+
+h2.wlc{
+  font-size:50px;
+  font-weight:700;
+  text-align: center;
+  color:white;
+  }
+  
+  h1.title{
+  font-size:70px;
+  font-weight:900;
+  text-align: center;
+  color:white;
+  }
+  .overlay
+  {
+  position:absolute;
+  display:block;
+  top:10;
+  left:0;
+  width:100%;
+  height:100%;
+  /* background-color:rgba(0,0,0,.4) */
+  }
+h2.wlc{
+  font-size:3rem;
+  font-weight:700;
+  
+  }
+  
+  h1.title{
+  font-size:4rem;
+  font-weight:900;
+  }
+  
+
+.military{background:black;}
+
 .center-content {
   display: flex;
   align-items: center;
@@ -35,7 +91,7 @@ body {
   font-size:3.5rem;
   line-height:150%;
   position:absolute;
-  bottom:30px;
+  bottom:130px;
   background-color: rgba(0,0,0,0.5);
   text-align: center; 
   display:block;
@@ -79,8 +135,7 @@ border-radius:8px;
 color:white;
 margin-left:-150px;
 }
-.ed-prophet-about{
- 
+.ed-prophet-about{ 
   height:100%;
   display:block;
   padding-bottom:100px;
@@ -92,8 +147,7 @@ line-height: 150%;
 
 } 
 
-.curved p{
- 
+.curved p{ 
   display:block;
 }
 .ed-prophet-singing{
@@ -105,7 +159,7 @@ line-height: 150%;
   height: 100vh;
 }
 .church-leadership{
-  margin-top:-50px;
+  margin-top:-30px;
   color:red;
   margin-bottom:50px;
 }
@@ -128,7 +182,8 @@ line-height: 150%;
   color:red;
 }
 .bg-ed-preaching{
-  background-image:url(./images/ed-pastor-in-pakistan-crusade.jpg); 
+  /* background-image:url(./images/ed-pastor-in-pakistan-crusade.jpg);  */
+  background-image:url(./images/ed-pastor-at-pakistan.JPG); 
   background-position: center;
   /* background-size:cover; */
   background-color:black;
@@ -165,8 +220,8 @@ line-height: 150%;
   font-size:4rem;
 }
 .vk-title2{
-  padding:30px;
-  text-align: center;
+  padding:10px 15px 15px 15px;
+  font-size:3rem;
 }
 
 .vk-bottom-margin{margin-bottom: 70px;}
@@ -245,23 +300,18 @@ line-height: 150%;
     transform: rotate(360deg);
   }
 }
-@media ( max-width: 769px ) {
-  /* .react__player{
-     max-width: 50%;
-     max-height: 250px; 
-     margin-right: 20px;
-     
-  } */
 
-  .church-introduction{       
-        font-size: 3rem;
-        height: 80%;
-        display: block;
-        padding: 30px;
-        width: 100%; 
-  }
+@media screen and (max-width: 780px) {
+  .church-introduction{  
+    display: block;
+    padding: 30px;
+    width: 100%; 
+    text-align: center;
+    bottom:20px;
 }
-@media screen and (max-width: 769px) {
+  a.navbar-brand{position:absolute; top:15px;
+    left:100px; display:block;}
+                                                
   div#navbarSupportedContent {
     margin-top: 20px;
 }
@@ -279,17 +329,6 @@ line-height: 150%;
       overflow: hidden;
       list-style-type: none;
   }
-
-  /* .navbar-brand{
-    text-align: center ;      
-    display:none;
-    padding:10px;
-    position:absolute;
-    top:10px;
-    left:100px;
-
-} */
-
 li.nav-item { 
   margin-left:10px;
   padding: 10px;
@@ -304,4 +343,11 @@ margin-bottom:0px;
  .image-ed{  
   margin-top:0px;
 }
+
+}
+
+@media screen and (max-width: 425px) {
+  a.navbar-brand{position:absolute; top:15px;
+    left:80px; display:block;}
+  
 }
