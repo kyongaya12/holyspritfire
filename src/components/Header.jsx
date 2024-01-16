@@ -12,12 +12,11 @@ const Header = () => {
         <>
             <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
                 <div className="container-fluid py-2">
-                <NavLink className="navbar-brand mx-auto fw-bold  d-sm-block d-md-none" to="/">Holy Sprit Fire 성령의불</NavLink>
+                  
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
-
                     </button>
-                  
+                    <NavLink className="navbar-brand mx-auto fw-bold d-none d-sm-block d-md-none" to="/">Holy Sprit Fire(성령의불)</NavLink>
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                       {/* <ul className="navbar-nav mb-2 mb-lg-0">
                             <li className="nav-item">
@@ -54,7 +53,7 @@ const Header = () => {
                     </ul>   
                 </nav>
                        
-                 <NavLink className="navbar-brand mx-auto fw-bold d-sm-none d-md-block" to="/">Holy Sprit Fire 성령의불</NavLink>
+                 <NavLink className="navbar-brand mx-auto fw-bold d-sm-none d-md-block" to="/">Holy Sprit Fire(성령의불)</NavLink>
                     {/* <Login/>
                     <Signup/>
                     <CartBtn/> */}
