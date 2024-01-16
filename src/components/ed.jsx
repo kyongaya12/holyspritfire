@@ -2,13 +2,14 @@ import React from 'react'
 // import ReactPlayer from 'react-player'
 import ReactPlayer from 'react-player'
 import imageCall from './images/ed-pastor-face.jpg';
+import imageCall1 from './images/선지자 에드 목사님 어떻게 영적계급올릴까요.jpg';
+import imageCall2 from './images/꿈 해몽 copy.jpg';
+import BgVideo from './BgVideo';
 
 const ed = () => {    
   return (
     <div >
-      {/* <ReactPlayer url="https://www.youtube.com/watch?v=MHRqqWsKaCo"
-      playing={true} />  */}
-     <section className="bg-ed-preaching img-fluid">
+  <section className="bg-ed-preaching img-fluid">
        {/* <div class="left"></div>
      <div class="right"> */}
     
@@ -17,21 +18,25 @@ const ed = () => {
                     <div className="col-md-12 py-4">
                       <h1 className="text-primary fw-bold mb-4 text-center  vk-title1">  </h1>
                         <div className='text-white py-4 church-introduction'>
-<p>선지자 에드 씬트로넬리 </p>
-<p>강력한 성령사역</p><p>예언, 치유, 축사 </p>
+
+<p>고린도전서 4:20</p>
+<p>하나님의 나라는 말에 있지 아니하고 오직 능력에 있음이라 </p>
+
 
 </div>
 </div>
 </div></div>
 {/* </div> */}
      </section>
-    
-        <section className="ed-prophet-about curved" >
-     
+
+        <section className="ed-prophet-about curved" >     
      <div className="container vk-bg-container" >
                 <div className="row p4-4 ">
                     <div className="col-md-6 ">
-                        <h1 className="boxstyle text-primary fw-bold mb-4 text-center vk-title1"> 오중사역 교회 </h1>
+
+                    <h1 className="boxstyle text-primary fw-bold mb-4 text-center vk-title1"> 에드 시츠로렐리 </h1>
+                        <h3 className="boxstyle text-primary fw-bold mb-4 text-center vk-title2"> 오중사역 교회 </h3>
+                       
                         <p class="church-leadership">(사도, 선지자, 전도자, 목사,교사)</p>
                         <div className="no-delay">
                         <p>좌절, 지연, 방해, 막힘은 어디에서 오는 것인가요? </p>
@@ -39,7 +44,7 @@ const ed = () => {
                   
                      <p>에베소서 6:12 KRV</p>
                      <p>우리의 씨름은 혈과 육에 대한 것이 아니요 정사와 권세와 이 어두움의 세상 주관자들과 하늘에 있는 악의 영들에게 대함이라</p>
-                     <p>그럼<b className="solution"> 해결</b> 책이있나요?</p>
+                     <p>그럼<b className="solution">해결</b>책이있나요?</p>
                     <p>예수님은 악마의 작업을 파괴하기 위해서 기름부운자를 세우시고 보내셨습니다</p>
                     <p>에드 목사님의 기름부움으로 사탄의 막힘을 파괴하시고 놀라운 성령의 활동하심에 동참하셔요. </p>
                     </div>
@@ -54,7 +59,14 @@ const ed = () => {
         
 
         </section>
-
+        <section className="" >    
+        <div class="container-fluid military" >
+          <div class="container" >
+          <div class="row">
+      <img src={imageCall2} alt="ed pastor" className="img-fluid" />
+      </div>
+      </div></div>
+      </section>
            
        <div className="container py-5">
         <div class="row py-5">
@@ -79,8 +91,7 @@ const ed = () => {
       </section>
       </div>
 
-   
- 
+  
   )
 }
 

@@ -6,10 +6,10 @@ const About = () => {
     return (
         <div>
             
-            <div className="container py-5 my-5">
+            <div className="container  ">
                 <div className="row">
                 {/* <h1 className="text-primary fw-bold text-center py-4 mb-4"> 예언자 에드 목사님의 사역</h1> */}
-                <h1 className="text-primary fw-bold text-center py-4 mb-4">가장 친한 친구인 성령님께 감사와 찬양 </h1>
+                <h1 className="text-primary fw-bold text-center py-4 mt-4">가장 친한 친구인 성령님께 감사와 찬양 </h1>
                   
                <img src={imageCall} alt="About Us" className="image-fluid" ></img>
              
