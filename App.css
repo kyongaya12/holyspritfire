@@ -8,7 +8,9 @@ body {
   margin: 0;
   padding: 0;
 }
-
+.btn-outline-primary {
+  outline: none !important;
+}
 .center-content {
   display: flex;
   align-items: center;
