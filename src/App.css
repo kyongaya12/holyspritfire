@@ -159,7 +159,7 @@ line-height: 150%;
   height: 100vh;
 }
 .church-leadership{
-  margin-top:-50px;
+  margin-top:-30px;
   color:red;
   margin-bottom:50px;
 }
@@ -300,23 +300,16 @@ line-height: 150%;
     transform: rotate(360deg);
   }
 }
-@media ( max-width: 769px ) {
-  /* .react__player{
-     max-width: 50%;
-     max-height: 250px; 
-     margin-right: 20px;
-     
-  } */
 
-  .church-introduction{       
-        font-size: 3rem;
-        height: 80%;
-        display: block;
-        padding: 30px;
-        width: 100%; 
-  }
-}
 @media screen and (max-width: 780px) {
+
+  .church-introduction{  
+    display: block;
+    padding: 30px;
+    width: 100%; 
+    text-align: center;
+    bottom:20px;
+}
   a.navbar-brand{position:absolute; top:15px;
     left:100px; display:block;}
                                                 
