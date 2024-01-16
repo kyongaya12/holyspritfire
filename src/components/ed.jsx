@@ -4,26 +4,29 @@ import ReactPlayer from 'react-player'
 import imageCall from './images/ed-pastor-face.jpg';
 import imageCall1 from './images/선지자 에드 목사님 어떻게 영적계급올릴까요.jpg';
 import imageCall2 from './images/꿈 해몽 copy.jpg';
+import imageCall3 from './images/ed-pastor-at-pakistan.JPG'
 import BgVideo from './BgVideo';
 
 const ed = () => {    
   return (
     <div >
-  <section className="bg-ed-preaching img-fluid">
+  <section >
        {/* <div class="left"></div>
      <div class="right"> */}
-    
+     <div className="topImage">
+    <img src={imageCall3} alt="ed pastor"  />
+   
      <div className="container vk-bg-container" >     
-     <div className="row p4-4 ">
-                    <div className="col-md-12 py-4">
-                      <h1 className="text-primary fw-bold mb-4 text-center  vk-title1">  </h1>
-                        <div className='text-white py-4 church-introduction'>
+     <div className="row ">
+                    <div className="col-md-12 ">
+                      <h1 className="text-primary fw-bold text-center  vk-title1">  </h1>
+                        <div className='text-white  church-introduction'>
 
 <p>고린도전서 4:20</p>
 <p>하나님의 나라는 말에 있지 아니하고 오직 능력에 있음이라 </p>
 </div>
 </div>
-</div></div>
+</div></div> </div>
 {/* </div> */}
      </section>
 
