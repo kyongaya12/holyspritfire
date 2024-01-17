@@ -14,7 +14,7 @@ const ed = () => {
        {/* <div class="left"></div>
      <div class="right"> */}
      <div className="topImage">
-    <img src={imageCall3} alt="ed pastor"  />
+    <img src={imageCall3} alt="ed pastor" className="img-fluid" />
    
      <div className="container vk-bg-container" >     
      <div className="row ">
