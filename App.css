@@ -53,10 +53,9 @@ h2.wlc{
   height:100%;
   /* background-color:rgba(0,0,0,.4) */
   }
-h2.wlc{
+  h2.wlc{
   font-size:3rem;
-  font-weight:700;
-  
+  font-weight:700;  
   }
   
   h1.title{
@@ -146,7 +145,7 @@ font-size:1.5rem;
 line-height: 150%;
 
 } 
-.topImage {position:relative;height:100%;width:100%;}
+.topImage {position:relative;height:100%;width:100%; text-align: center; background:#161515;}
 .curved p{ 
   display:block;
 }
@@ -216,7 +215,7 @@ line-height: 150%;
   border-radius:3rem;
 }
 .vk-title1{
-  padding:40px 30px 30px 30px;
+ color:rgb(18, 18, 231);
   font-size:4rem;
 }
 .vk-title2{
@@ -301,6 +300,17 @@ line-height: 150%;
   }
 }
 
+
+@media screen and (max-width: 1024px) {
+  .church-introduction{  
+    display: block;
+    padding: 30px;
+    width: 100%; 
+    text-align: center;
+    bottom:20px;
+}
+}
+
 @media screen and (max-width: 780px) {
   .church-introduction{  
     display: block;
@@ -308,6 +318,11 @@ line-height: 150%;
     width: 100%; 
     text-align: center;
     bottom:20px;
+}
+
+.church-introduction { 
+  bottom:50px;
+ 
 }
   a.navbar-brand{position:absolute; top:15px;
     left:100px; display:block;}
