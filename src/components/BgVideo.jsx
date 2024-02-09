@@ -11,10 +11,6 @@ const BgVideo = () => {
         {/* <video className='video-bg' autoPlay loop muted>
         <source src="./images/video1.mp4" type="video/mp4"/>
         </video>  */}
-
-
-       
-
     
       <iframe width="100%" height="100%" src="https://youtube.com/embed/dvRdMU-NyJg?autoplay=1&loop=1&mute=1&rel=0" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
             <div className="container-vk">
