@@ -5,12 +5,18 @@ import imageCall from '../images/ed-pastor-with-freedom-arena.jpg'
 import imageCall2 from './images/holy-sprit-with-ed.jpg'
 import Gallery from './Gallery';
 const About = () => {
+    const isMobile = window.matchMedia("(max-width: 768px)").matches;
     return (
         <div>
 <div class="container-fluid">
   <div class="row">
     <div class="col-md-12 p-0">    
-      <img src={imageCall2} class="cover-image" alt="에드 목사님의 성령사역" />
+      {/* <img src={imageCall2} class="cover-image" alt="에드 목사님의 성령사역" /> */}
+      {isMobile ? (
+        <img src={imageCall} alt="Mobile Image" />
+      ) : (
+        <img src={imageCall2} alt="Desktop Image" class="cover-image" />
+      )}
     </div>
   </div>
 </div>

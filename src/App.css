@@ -276,12 +276,13 @@ line-height: 150%;
 
 @media (max-width: 576px) {
   .text-overlay {
-    width: 100%; /* Adjust width as needed */
-    top:0px;
+    width: 100%; /* Adjust width as needed */    
+    top:40%;
     left: 50%;
+    border-radius: 0px;
     transform: translateX(-50%);
   }
-  .text-overlay h1 {font-size:1.5rem;}
+  /* .text-overlay h1 {font-size:1.5rem;line-height: 150%;} */
 }
 .cover-image {
   width: 100%;

@@ -9,6 +9,7 @@ import BgVideo from './BgVideo';
 
 
 const ed = () => {    
+  const isMobile = window.matchMedia("(max-width: 768px)").matches;
   return (
     <div >
   <section >
@@ -26,10 +27,16 @@ const ed = () => {
         <div class="row">
             <div class="col-md-12 mx-auto p-0">
                 <div class="image-with-text">
-                    <img src={imageCall3} class="img-fluid cover-image" alt="Image" />
+                    {/* <img src={imageCall3} class="img-fluid cover-image" alt="Image" /> */}
+
+                    {isMobile ? (
+        <img src={imageCall2} alt="Mobile Image" />
+      ) : (
+        <img src={imageCall3} alt="Desktop Image" />
+      )}
                     <div class="text-overlay">
-                        <h2>고린도전서 4:20</h2>
-<h1>하나님의 나라는 말에 있지 
+                        <h1>고린도전서 4:20<br/>
+하나님의 나라는 말에 있지 
 아니하고 오직 능력에 있음이라</h1>
                     </div>
                 </div>
