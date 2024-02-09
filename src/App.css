@@ -62,7 +62,6 @@ h2.wlc{
   font-size:4rem;
   font-weight:900;
   }
-  
 
 .military{background:black;}
 
@@ -98,12 +97,39 @@ h2.wlc{
   border-radius:10px;
   left:50%;
   transform:translateX(-50%);
-  padding:20px;
+  padding:20px 40px;
 }
+.church-introduction p {padding:0 30px;}
 .image-ed{
   position:relative;
   height:100vh;
   margin-top:30px;
+}
+.what-we-believe{
+  
+  color:#000;
+  padding:40px;
+  background:white;
+  padding:50px 50px;
+  border-radius: 25px;
+}
+.what-we-believe h3{
+  color:#000;
+  font-size: 3rem;
+ line-height: 200%;
+ 
+}
+.what-we-believe h2{
+  color:#000;
+  font-size: 2.7rem;
+ line-height: 200%;
+}
+.holy-sprit-works{
+  line-height:150%;
+  color:black;
+  font-size: 3rem;
+  text-align: center;
+  padding:70px 30px 0px;
 }
 .bg-ed-preaching {
   -webkit-box-shadow: 0px 10px 13px -7px #000000, 0px 5px 15px 5px rgba(0,0,0,0); 
@@ -139,6 +165,8 @@ margin-left:-150px;
   height:100%;
   display:block;
   padding-bottom:100px;
+  margin-top:100px;
+ 
 }     
 .ed-prophet-about p{
  color:#070000;
@@ -146,6 +174,16 @@ font-size:1.5rem;
 line-height: 150%;
 
 } 
+.about-holy-sprit{
+  margin:20px ;
+ 
+}
+.about-holy-sprit h1{
+  line-height: 150%;
+  padding:70px 50px 0px 0px;
+  text-align: center;
+  font-size: 3rem;
+}
 .topImage {position:relative;height:100%;width:100%; text-align: center; background:#161515;}
 .curved p{ 
   display:block;
@@ -162,8 +200,25 @@ line-height: 150%;
   margin-top:-30px;
   color:red;
   margin-bottom:50px;
+  text-align: center;
 }
 
+.cross{
+  background-image:url(./images/cross.jpg);
+  background-position: center;
+  background-size:cover;
+  background-repeat: no-repeat;  
+  width:100%;
+  height:100%; 
+}
+.we-belive-cover{margin-top:70px;margin-bottom:70px;}
+.center-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh; /* Adjust as needed */
+  
+}
 .bg-footer{
   background-image:url(./images/fire-anointing.jpg);
   background-position: center;
@@ -197,15 +252,68 @@ line-height: 150%;
   position: relative;
   
 }
+.gallery-images{
+  padding:50px 0px;
+  background:black;
 
-.vk-bg-container{
-  margin-top:30px;
-  color:#000007;
-  font-size:1rem;
-  line-height: 150%;
-  text-align: center;
- 
 }
+.image-with-text {
+  position: relative;
+}
+
+.text-overlay {
+  position: absolute;  
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white; /* Text color */
+  background-color: rgba(0, 0, 0, 0.7); /* Background color with transparency */
+  padding: 20px; /* Adjust padding as needed */
+  border-radius: 20px;
+  
+}
+
+@media (max-width: 576px) {
+  .text-overlay {
+    width: 100%; /* Adjust width as needed */
+    top:0px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .text-overlay h1 {font-size:1.5rem;}
+}
+.cover-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensure the image covers the entire space while maintaining aspect ratio */
+}
+.pray-of-war-about{
+  padding:30px 0px;
+}
+.pray-of-war-about h1{
+line-height: 150%;
+}
+.pray-of-war-about h2{
+  line-height: 150%;
+  }
+.pray-of-war-about h3{
+    line-height: 2.5rem;
+ }
+.mark161718{
+  padding:50x;
+  background:black;
+  font-size: 2rem;;
+  color:#fff;
+  text-align: center;
+  display:block;
+}
+
+/* .vk-bg-container{
+  color:#000;
+  font-size:1rem;
+  text-align: center; 
+} */
 .custom-margins {
   margin-top: 30px;
   margin-bottom: 30px;
@@ -217,13 +325,14 @@ line-height: 150%;
 }
 .vk-title1{
  color:rgb(18, 18, 231);
-  font-size:4rem;
+  font-size:3rem;
+  
 }
 .vk-title2{
   padding:10px 15px 15px 15px;
-  font-size:3rem;
+  font-size:2.5rem;
 }
-
+a.btn.btn-outline-primary.ms-2 {border:none;}
 .vk-bottom-margin{margin-bottom: 70px;}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -352,6 +461,7 @@ margin-bottom:0px;
  }
  .image-ed{  
   margin-top:0px;
+
 }
 
 }

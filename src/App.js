@@ -4,6 +4,7 @@ import Header from './components/Header';
 import Footer from './components/Footer'
 import Book from './components/Book'
 import Home from './components/Home'
+import Blog from './components/Blog'
 import About from './components/About'
 import Product from './components/Product'
 import Contact from './components/Contact'
@@ -15,15 +16,18 @@ import { Redirect, Route, Switch } from 'react-router-dom';
 import ProductDetail from './components/ProductDetail';
 import Cart from './components/Cart';
 import Checkout from './components/Checkout'
+import Navbar from './components/Navbar/Navbar';
 
 
 function App() {
   return (
     <>
-    {/* <Headers/> */}
-      <Header/>
+  
+      {/* <Header/> */}
+      <Navbar />
       <Switch>
         <Route exact path="/" component={Home} />
+        <Route exact path="/blog" component={Blog} />
         <Route exact path="/products" component={Product} />
         <Route exact path="/products/:id" component={ProductDetail} />
         <Route exact path="/book" component={Book} />
