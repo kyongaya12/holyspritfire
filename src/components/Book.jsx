@@ -1,19 +1,42 @@
 import React from 'react'
 import imageCall from './images/prayers-of-wars.jpg';
+import imageCall2 from './images/성령의 불 기도.jpg';
+import imageCall1 from './images/성령의 불 기도 mobile.jpg';
 const Book = () => {
+  const isMobile = window.matchMedia("(max-width: 768px)").matches;
   return (
-    <div className="container custom-margins" >
+    <div >
      
+    <div className="container-fluid" style={{background:'black'}}>
+        <div className="container p-0">
+      <div className="row p-0">
+          {/* <div className="col-md-12 text-center">         
+            <img src={imageCall1} alt="Contact Us" className="img-fluid" />        
+        </div> */}
+        <div class="col-md-12  mx-auto p-0 ">
+            <div class="image-with-text">     
+      {isMobile ? (
+        <img src={imageCall1} alt="Mobile Image" class="cover-image" />
+      ) : (
+        <img src={imageCall2} alt="Desktop Image" class="cover-image" />
+      )}
+</div>
+</div>
 
+        </div>
+      </div>
+    </div>
+   
+    <div className="container">
       <div className="row pray-of-war-about">
-    <h1>전쟁 기도</h1>
+    <h1 className="text-center">대적 기도</h1>
 <h2>사탄의 사슬, 방해 및 악마적 작용을 깨는 즉각적인 결과를 위한 기도</h2>
-<h3> 이 강력한 책은 어둠의 왕국과 그가 당신의 삶에 가지고 있는 모든 계획을 뒤엎기 위한 기도로 가득 차 있습니다. 
-      이 기도들은 당신의 삶, 집, 비즈니스, 건강, 자녀 등 여러 영역에 대한 저주와 사탄의 조작을 깨는 데 효과적입니다.</h3>
+<p> 이 강력한 책은 어둠의 왕국과 그가 당신의 삶에 가지고 있는 모든 계획을 뒤엎기 위한 기도로 가득 차 있습니다. 
+      이 기도들은 당신의 삶, 집, 비즈니스, 건강, 자녀 등 여러 영역에 대한 저주와 사탄의 조작을 깨는 데 효과적입니다.</p>
       </div>
       <div className="row">
         {/* Image Column */}
-        <div className="col-md-6 text-center">         
+        <div className="col-md-6 text-center p-0">         
             <img src={imageCall} alt="Contact Us" className="img-fluid" />
             <h2>이 책은 한국어로 출판될 예정입니다. 관심있는분 연락바랍니다.</h2>
         </div>
@@ -91,10 +114,11 @@ const Book = () => {
 <p>제 68장 기적, 표적 및 이상을 위해 일하는 기도</p>
 <p>제 69장 잠들기 전에 기도하기 </p>
 
-
+</div>
        
         </div>
       </div>
+      
     </div>
   )
 }
