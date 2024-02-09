@@ -3,7 +3,7 @@ import React from 'react'
 import ReactPlayer from 'react-player'
 import imageCall from './images/ed-pastor-face.jpg';
 import imageCall1 from './images/선지자 에드 목사님 어떻게 영적계급올릴까요.jpg';
-import imageCall2 from './images/꿈 해몽 copy.jpg';
+import imageCall2 from './images/ed-pastor-at-pakistan.jpg';
 import imageCall3 from './images/ed-pastor-at-pakistan.jpg';
 import BgVideo from './BgVideo';
 
