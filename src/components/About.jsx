@@ -13,7 +13,7 @@ const About = () => {
     <div class="col-md-12 p-0">    
       {/* <img src={imageCall2} class="cover-image" alt="에드 목사님의 성령사역" /> */}
       {isMobile ? (
-        <img src={imageCall} alt="Mobile Image" />
+        <img src={imageCall2} alt="Mobile Image" class="cover-image" />
       ) : (
         <img src={imageCall2} alt="Desktop Image" class="cover-image" />
       )}
