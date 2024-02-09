@@ -3,7 +3,7 @@ import React from 'react'
 import ReactPlayer from 'react-player'
 import imageCall from './images/ed-pastor-face.jpg';
 import imageCall1 from './images/선지자 에드 목사님 어떻게 영적계급올릴까요.jpg';
-import imageCall2 from './images/ed-pastor-at-pakistan.jpg';
+import imageCall2 from './images/ed-pastor-at-pakistan-mobile-size.jpg';
 import imageCall3 from './images/ed-pastor-at-pakistan.jpg';
 import BgVideo from './BgVideo';
 
@@ -13,16 +13,7 @@ const ed = () => {
   return (
     <div >
   <section >
-       {/* <div class="left"></div>
-     <div class="right"> */}
-{/* <div class="container-fluid">
-  <div class="row">
-    <div class="col-md-12 p-0">    
-      <img src={imageCall3} class="cover-image" alt="에드 목사님의 성령사역" />
    
-    </div>
-  </div>
-</div> */}
 <div class="container-fluid">
         <div class="row">
             <div class="col-md-12 mx-auto p-0">
@@ -30,9 +21,9 @@ const ed = () => {
                     {/* <img src={imageCall3} class="img-fluid cover-image" alt="Image" /> */}
 
                     {isMobile ? (
-        <img src={imageCall2} alt="Mobile Image" />
+        <img src={imageCall2} alt="Mobile Image" class="cover-image" />
       ) : (
-        <img src={imageCall3} alt="Desktop Image" />
+        <img src={imageCall3} alt="Desktop Image" class="cover-image" />
       )}
                     <div class="text-overlay">
                         <h1>고린도전서 4:20<br/>
@@ -106,11 +97,11 @@ const ed = () => {
        <div className="container py-5">
         <div class="row py-5">
     <div class="col-xs-12 col-md-6">
-    <iframe width="100%" height="325" src="https://youtube.com/embed/JBMCuxmAntc?si=25QGmPS5SPTmj8PK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe width="100%" height="325" src="https://youtube.com/embed/JBMCuxmAntc?si=25QGmPS5SPTmj8PK" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     {/* <ReactPlayer url='https://youtu.be/T58YrE1XWNk?si=H-cN2-kDFlMkxqDa' autoPlay muted className="react__player"  /> */}
     </div>
     <div class="col-xs-12 col-md-6">
-    <iframe width="100%" height="325" src="https://youtube.com/embed/2_fnFBbqOmI?si=GmNnV9V0DXCX_8Sy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe width="100%" height="325" src="https://youtube.com/embed/2_fnFBbqOmI?si=GmNnV9V0DXCX_8Sy" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     {/* <ReactPlayer url='https://www.youtube.com/embed/2XduegbqFTU' autoPlay muted className="react__player"  /> */}
     </div>   
       </div>      
