@@ -3,8 +3,8 @@ import React from 'react'
 import ReactPlayer from 'react-player'
 import imageCall from './images/ed-pastor-face.jpg';
 import imageCall1 from './images/선지자 에드 목사님 어떻게 영적계급올릴까요.jpg';
-import imageCall2 from './images/ed-pastor-at-pakistan.jpg';
-import imageCall3 from './images/ed-pastor-at-pakistan.jpg';
+import imageCall2 from './images/ed-pastor-at-pakistan-mobile-size1.jpg';
+import imageCall3 from './images/ed-pastor-at-pakistan1.jpg';
 import BgVideo from './BgVideo';
 
 
@@ -13,16 +13,7 @@ const ed = () => {
   return (
     <div >
   <section >
-       {/* <div class="left"></div>
-     <div class="right"> */}
-{/* <div class="container-fluid">
-  <div class="row">
-    <div class="col-md-12 p-0">    
-      <img src={imageCall3} class="cover-image" alt="에드 목사님의 성령사역" />
    
-    </div>
-  </div>
-</div> */}
 <div class="container-fluid">
         <div class="row">
             <div class="col-md-12 mx-auto p-0">
@@ -34,35 +25,17 @@ const ed = () => {
       ) : (
         <img src={imageCall3} alt="Desktop Image" class="cover-image" />
       )}
-                    <div class="text-overlay">
+                    {/* <div class="text-overlay">
                         <h1>고린도전서 4:20<br/>
 하나님의 나라는 말에 있지 
 아니하고 오직 능력에 있음이라</h1>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </div>
     </div>
 
 
-
-
-     {/* <div className="container-fluid topImage">
-      
-    <img src={imageCall3} alt="ed pastor" className="img-fluid" />
-   
-     <div className="container vk-bg-container" >     
-     <div className="row ">
-                    <div className="col-md-12 ">
-                      <h1 className="text-primary fw-bold text-center  vk-title1">  </h1>
-                        <div className='text-white  church-introduction'>
-
-<p>고린도전서 4:20</p>
-<p>하나님의 나라는 말에 있지 아니하고 오직 능력에 있음이라 </p>
-</div>
-</div>
-</div></div> </div> */}
-{/* </div> */}
      </section>
 
         <section className="ed-prophet-about" >     
@@ -95,22 +68,22 @@ const ed = () => {
         <section className="" >    
         <div class="container-fluid " style={{background:'black',padding:'70px'}}>
           <div class="container" >
-          <div class="row mark161718">
+          <div class="row text-center text-light" >
       {/* <img src={imageCall2} alt="ed pastor" className="img-fluid" /> */}
-      마가복음 16:17-18 KRV <br/>
+    <h2> 마가복음 16:17-18 KRV <br/>
 믿는 자들에게는 이런 표적이 따르리니 곧 저희가 내 이름으로 귀신을 쫓아내며 새 방언을 말하며 뱀을 집으며 무슨 독을 마실찌라도 해를 받지 아니하며 병든 사람에게 손을 얹은즉 나으리라 하시더라
-      </div>
+</h2>   </div>
       </div></div>
       </section>
            
        <div className="container py-5">
         <div class="row py-5">
     <div class="col-xs-12 col-md-6">
-    <iframe width="100%" height="325" src="https://youtube.com/embed/JBMCuxmAntc?si=25QGmPS5SPTmj8PK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe width="100%" height="325" src="https://youtube.com/embed/JBMCuxmAntc?si=25QGmPS5SPTmj8PK" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     {/* <ReactPlayer url='https://youtu.be/T58YrE1XWNk?si=H-cN2-kDFlMkxqDa' autoPlay muted className="react__player"  /> */}
     </div>
     <div class="col-xs-12 col-md-6">
-    <iframe width="100%" height="325" src="https://youtube.com/embed/2_fnFBbqOmI?si=GmNnV9V0DXCX_8Sy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe width="100%" height="325" src="https://youtube.com/embed/2_fnFBbqOmI?si=GmNnV9V0DXCX_8Sy" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     {/* <ReactPlayer url='https://www.youtube.com/embed/2XduegbqFTU' autoPlay muted className="react__player"  /> */}
     </div>   
       </div>      
