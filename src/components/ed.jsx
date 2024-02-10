@@ -68,11 +68,11 @@ const ed = () => {
         <section className="" >    
         <div class="container-fluid " style={{background:'black',padding:'70px'}}>
           <div class="container" >
-          <div class="row mark161718">
+          <div class="row text-center text-light" >
       {/* <img src={imageCall2} alt="ed pastor" className="img-fluid" /> */}
-      마가복음 16:17-18 KRV <br/>
+    <h2> 마가복음 16:17-18 KRV <br/>
 믿는 자들에게는 이런 표적이 따르리니 곧 저희가 내 이름으로 귀신을 쫓아내며 새 방언을 말하며 뱀을 집으며 무슨 독을 마실찌라도 해를 받지 아니하며 병든 사람에게 손을 얹은즉 나으리라 하시더라
-      </div>
+</h2>   </div>
       </div></div>
       </section>
            
