@@ -42,8 +42,8 @@ const ed = () => {
      <div className="container" >
                 <div className="row p4-4  " >
                     <div className="col-md-6 ">
-                    <h1> 에드 시츠로렐리 </h1>
-                    <h2> 강력한 성령 사역자 </h2>                       
+                    <h1> 선지자 에드 시츠로렐리 </h1>
+                    <h2> 예언, 치유, 축사 성령사역자</h2>                       
               
                   <p>&nbsp;</p>
                     <div className="no-delay">
@@ -56,7 +56,7 @@ const ed = () => {
 </blockquote>
                      <p>그럼<b className="solution">해결</b>책이있나요?</p>
                     <p>예수님은 악마의 작업을 파괴하기 위해서 기름부운자를 세우시고 보내셨습니다.
-                    에드 목사님의 기름부움으로 사탄의 막힘을 파괴하시고 놀라운 성령의 활동하심에 동참하셔요. </p>
+                    선지자 에드님의 기름부움으로 사탄의 막힘을 파괴하시고 놀라운 성령의 활동하심에 동참하셔요. </p>
                     </div>
                     </div>
                     <div className="col-md-6 ">                  
