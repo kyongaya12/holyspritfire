@@ -1,6 +1,6 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-import imageCall from '../images/ed-pastor-with-freedom-arena.jpg'
+import imageCall from './images/ed-pastor-with-freedom-arena.jpg'
 //import imageCall1 from './images/dominican-crusade.jpg'
 import imageCall2 from './images/holy-sprit-with-ed.jpg'
 import imageCall1 from './images/holy-sprit-with-ed-mobile.jpg'

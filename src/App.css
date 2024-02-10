@@ -78,7 +78,7 @@ h2.wlc{
   pointer-events: none;
 }
 .bg-fire{
-  background-image:url(./images/ed-pastor-with-freedom-arena1.jpg);
+  background-image:url(./components/images/ed-pastor-with-freedom-arena1.jpg);
   background-position: center;
   background-size:cover;
   background-repeat: no-repeat;  
@@ -144,7 +144,7 @@ max-width:100%;
 max-height:100%;
 }
 .bg{
-  background-image:url(./images/img21.jpg);
+  background-image:url(./components/images/img21.jpg);
   width:100%;
   height:100%;
   background-size:cover;
@@ -189,7 +189,7 @@ line-height: 150%;
   display:block;
 }
 .ed-prophet-singing{
-  background-image:url(./images/ed-singing.jpg);
+  background-image:url(./components/images/ed-singing.jpg);
   background-position: center;
   background-size:cover;
   background-repeat: no-repeat;  
@@ -204,7 +204,7 @@ line-height: 150%;
 }
 
 .cross{
-  background-image:url(./images/cross.jpg);
+  background-image:url(./components/images/cross.jpg);
   background-position: center;
   background-size:cover;
   background-repeat: no-repeat;  
@@ -220,7 +220,7 @@ line-height: 150%;
   
 }
 .bg-footer{
-  background-image:url(./images/fire-anointing.jpg);
+  background-image:url(./components/images/fire-anointing.jpg);
   background-position: center;
   /* background-size:cover; */
   background-repeat: no-repeat;  
@@ -236,11 +236,9 @@ line-height: 150%;
   padding:20px;
   color:red;
 }
-.bg-ed-preaching{
-  /* background-image:url(./images/ed-pastor-in-pakistan-crusade.jpg);  */
-  background-image:url(./images/ed-pastor-at-pakistan.JPG); 
-  background-position: center;
-  /* background-size:cover; */
+/* .bg-ed-preaching{  
+  background-image:url(./components/images/ed-pastor-at-pakistan.jpg); 
+  background-position: center;  
   background-color:black;
   background-repeat: no-repeat;  
   width:100%;
@@ -249,9 +247,8 @@ line-height: 150%;
   padding:10px;
   padding-top:40px;
   padding-bottom:40px;
-  position: relative;
-  
-}
+  position: relative;  
+} */
 .gallery-images{
   padding:50px 0px;
   background:black;

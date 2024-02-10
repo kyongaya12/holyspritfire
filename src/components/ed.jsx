@@ -36,24 +36,6 @@ const ed = () => {
     </div>
 
 
-
-
-     {/* <div className="container-fluid topImage">
-      
-    <img src={imageCall3} alt="ed pastor" className="img-fluid" />
-   
-     <div className="container vk-bg-container" >     
-     <div className="row ">
-                    <div className="col-md-12 ">
-                      <h1 className="text-primary fw-bold text-center  vk-title1">  </h1>
-                        <div className='text-white  church-introduction'>
-
-<p>고린도전서 4:20</p>
-<p>하나님의 나라는 말에 있지 아니하고 오직 능력에 있음이라 </p>
-</div>
-</div>
-</div></div> </div> */}
-{/* </div> */}
      </section>
 
         <section className="ed-prophet-about" >     

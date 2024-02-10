@@ -47,9 +47,10 @@ const Contact = () =>
                      <p></p>
                         
                         <hr />
-                        <p>오피셜 휍사이트:<a href="https://edcitronnelliministries.com/">오피셜 휍사이트</a></p>
+                       <p>오피셜 휍사이트:<a href="https://edcitronnelliministries.com/">오피셜 휍사이트</a></p>
                        <p>집회 여정:<a href="https://www.edcitronnelliministries.co/events">집회 여정</a></p>
                       <p>유튜브:<a href="https://www.youtube.com/@EdCitronnelliMinistries/videos">유튜브 채널</a></p>
+                      <p>영어 전화:</p>
                         
   </div>
                     </div>
