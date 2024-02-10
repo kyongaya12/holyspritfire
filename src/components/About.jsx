@@ -2,8 +2,8 @@ import React from 'react'
 import { NavLink } from 'react-router-dom'
 import imageCall from './images/ed-pastor-with-freedom-arena.jpg'
 //import imageCall1 from './images/dominican-crusade.jpg'
-import imageCall2 from './images/holy-sprit-with-ed.jpg'
-import imageCall1 from './images/holy-sprit-with-ed-mobile.jpg'
+import imageCall2 from './images/holy-sprit-with-ed1.jpg'
+import imageCall1 from './images/holy-sprit-with-ed-mobile1.jpg'
 import Gallery from './Gallery';
 const About = () => {
     const isMobile = window.matchMedia("(max-width: 768px)").matches;
@@ -18,10 +18,10 @@ const About = () => {
       ) : (
         <img src={imageCall2} alt="Desktop Image" class="cover-image" />
       )}
-   <div class="text-overlay">
+   {/* <div class="text-overlay">
                         <h1>가장 친한 친구인 성령님께 감사와 찬양
 </h1>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </div>
