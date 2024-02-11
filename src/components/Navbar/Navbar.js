@@ -17,18 +17,11 @@ const Navbar = () => {
                 <CodeIcon />
               </span> */}
             </NavLink>
-  
+              <div className="nav-top">
             <ul className={click ? "nav-menu active" : "nav-menu"}>
               <li className="nav-item">
                 <NavLink
-                  exact
-                  to="/"
-                  activeClassName="active"
-                  className="nav-links"
-                  onClick={handleClick}
-                >
-                 홈
-                </NavLink>
+                  exact  to="/"  activeClassName="active" className="nav-links" onClick={handleClick} >홈 </NavLink>
               </li>
               <li className="nav-item">
                 <NavLink
@@ -64,6 +57,7 @@ const Navbar = () => {
                 </NavLink>
               </li>
             </ul>
+            </div>
             <div className="nav-icon" onClick={handleClick}>
               {/* <i className={click ? "fas fa-times" : "fas fa-bars"}></i> */}
   

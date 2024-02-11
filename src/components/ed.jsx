@@ -42,7 +42,7 @@ const ed = () => {
      <div className="container" >
                 <div className="row p4-4  " >
                     <div className="col-md-6 ">
-                    <h1> 선지자 에드 시츠로렐리 </h1>
+                    <h1>에드 시츠로렐리 </h1>
                     <h2> 예언, 치유, 축사 성령사역자</h2>                       
               
                   <p>&nbsp;</p>

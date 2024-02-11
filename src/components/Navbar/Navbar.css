@@ -49,7 +49,8 @@
     text-align: center;
     margin-right: 2rem;
   }
-  
+
+  ul.nav-menu {margin-left:-10px;}
   .nav-links {
     color: #fff;
     text-decoration: none;

@@ -17,17 +17,17 @@ const Footer = () => {
         <div className="container bg-footer text center" >
                    <div className="row ">
                        <div className="col-md-12" >                              
-     <h2 class="text-md-center py-5">예배 장소 </h2>
+     <h2 class="text-md-center pt-5">예배 장소 </h2>
                     </div>
    </div>
    <div className="row ">
-   <div className="col-md-4">
+   <div className="col-md-4 pt-5">
    <h3> 뉴욕: 프러싱</h3>
    <p>Time:  Sunday 11:00 AM</p>
    <p>Sheraton LaGuardia East Hotel 7Floor</p>
    <p>135-20 39th Ave, Flushing, NY 11354</p>   
     </div>
-    <div className="col-md-4">
+    <div className="col-md-4 pt-5">
          <h3>뉴욕: 브랑스</h3>
      <p>Time:  Wendesday 7:30 PM</p>
      <p> Residence Inn by Marriott New York </p>
@@ -35,7 +35,7 @@ const Footer = () => {
      <p>Eastchester Road, Bronx, NY 10461</p>
    </div>
    
-     <div className="col-md-4">
+     <div className="col-md-4 pt-5">
          <h3>텍사스</h3>
       <p> Sunday 11 AM, Friday 7:30 PM</p>
       <p> ECM Freedom Arena</p>
