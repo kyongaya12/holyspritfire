@@ -50,7 +50,7 @@
     margin-right: 2rem;
   }
 
-  ul.nav-menu {margin-left:-10px;}
+  ul.nav-menu {}
   .nav-links {
     color: #fff;
     text-decoration: none;
@@ -86,6 +86,7 @@
     color: #f0eee5;
     border: none;
     background-color:#fd0707;
+
  
     font-weight: bold;
     transition: all 0.5s ease;

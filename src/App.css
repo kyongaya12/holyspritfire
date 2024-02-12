@@ -441,7 +441,7 @@ a.btn.btn-outline-primary.ms-2 {border:none;}
       list-style-type: none;
   }
 li.nav-item { 
-  margin-left:10px;
+  margin-left:-10px;
   padding: 10px;
 
 }
