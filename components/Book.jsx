@@ -29,21 +29,23 @@ const Book = () => {
    
     <div className="container">
       <div className="row pray-of-war-about">
-    <h1 className="text-center">대적 기도</h1>
+    <h1>영적 전쟁기도</h1>
 <h2>사탄의 사슬, 방해 및 악마적 작용을 깨는 즉각적인 결과를 위한 기도</h2>
-<p> 이 강력한 책은 어둠의 왕국과 그가 당신의 삶에 가지고 있는 모든 계획을 뒤엎기 위한 기도로 가득 차 있습니다. 
-      이 기도들은 당신의 삶, 집, 비즈니스, 건강, 자녀 등 여러 영역에 대한 저주와 사탄의 조작을 깨는 데 효과적입니다.</p>
+<h3> 이 강력한 책은 어둠의 왕국과 그가 당신의 삶에 가지고 있는 모든 계획을 뒤엎기 위한 기도로 가득 차 있습니다. 
+      이 기도들은 당신의 삶, 집, 비즈니스, 건강, 자녀 등 여러 영역에 대한 저주와 사탄의 조작을 깨는 데 효과적입니다.</h3>
       </div>
       <div className="row">
         {/* Image Column */}
-        <div className="col-md-6 text-center p-0">         
-            <img src={imageCall} alt="Contact Us" className="img-fluid" />
+        <div className="col-md-6 p-0 ">         
+            <img src={imageCall} alt="Contact Us" className="img-fluid " />
+
             <h2>이 책은 한국어로 출판될 예정입니다. 관심있는분 연락바랍니다.</h2>
+            <h3>영문책 구입문의 <a href="https://www.edcitronnelliministries.co/product-page/prayers-of-war-hardcover" target="_shelf">영적 전쟁기도</a></h3>
         </div>
   
         {/* Text Column */}
-        <div className="col-md-6">
-    
+        <div className="col-md-6">    
+      <h2>책 목차 </h2>
 <p> 제 1장 폭력과 갈등의 사역</p>
 <p>제 2장 싸우지 않는 자는 고난을 겪을 것이다</p>
 <p>제 3장 영적 전쟁에서 성공하는 방법</p>
