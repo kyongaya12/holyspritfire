@@ -178,12 +178,12 @@ font-weight: bold;
   font-size:1.5rem;
 }
 .about-holy-sprit{
-  margin:20px ;
+ padding:50px;
  
 }
 .about-holy-sprit h1{
-  line-height: 150%;
-  padding:70px 50px 0px 0px;
+  line-height: 150%; 
+  padding:30px;
   text-align: center;
   font-size: 3rem;
 }
@@ -285,13 +285,31 @@ blockquote:before {
   display: inline;
 } */
 @media (max-width: 576px) {
+  /* .text-overlay {
+    width: 100%; 
+    bottom:0px;
+    left: 50%;  
+    border-radius: 0px; 
+    position:absolute;
+    transform: translateX(-50%);  
+    background:#000;
+    color:#fff;
+    display:block;
+  } */
+
   .text-overlay {
-    width: 100%; /* Adjust width as needed */    
-    top:40%;
-    left: 50%;
-    border-radius: 0px;
-    transform: translateX(-50%);
+    width: 100%; /* Adjust width as needed */   
+    position:unset;
+    bottom:0px;
+    left: 0;  
+    border-radius: 0px; 
+    -webkit-transform: none;
+    transform: none;
+    background:#000;
+    color:#fff;
+    display:block;
   }
+
   /* .text-overlay h1 {font-size:1.5rem;line-height: 150%;} */
 }
 .cover-image {
