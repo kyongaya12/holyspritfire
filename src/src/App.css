@@ -1,0 +1,489 @@
+html {
+  height: 100%; /* We still have to fix html height */
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.bgContainer{  
+  width:100%;
+  height:100vh;  
+ position:relative;
+}
+video {
+  width:100%;
+  height:100%;
+  object-fit: cover;
+}
+.container-vk{
+position:absolute;
+width:77%;
+height:50%;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+/* display:flex;
+flex-direction:column; */
+}
+
+h2.wlc{
+  font-size:50px;
+  font-weight:700;
+  text-align: center;
+  color:white;
+  }
+  
+  h1.title{
+  font-size:70px;
+  font-weight:900;
+  text-align: center;
+  color:white;
+  }
+  .overlay
+  {
+  position:absolute;
+  display:block;
+  top:10;
+  left:0;
+  width:100%;
+  height:100%;
+  /* background-color:rgba(0,0,0,.4) */
+  }
+  h2.wlc{
+  font-size:3rem;
+  font-weight:700;  
+  }
+  
+  h1.title{
+  font-size:4rem;
+  font-weight:900;
+  }
+
+.military{background:black;}
+
+.center-content {
+  display: flex;
+  align-items: center;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.bg-fire{
+  background-image:url(./components/images/ed-pastor-with-freedom-arena1.jpg);
+  background-position: center;
+  background-size:cover;
+  background-repeat: no-repeat;  
+  width: 100vw;
+  height: 100vh;  
+}
+
+.image-ed{
+  position:relative;
+  height:100vh;
+  margin-top:30px;
+}
+.what-we-believe{  
+  color:#000;
+  padding:40px;
+  background:white;
+  padding:50px 50px;
+  border-radius: 25px;
+  display:block;
+  margin-bottom:40px;
+  opacity: .7;
+}
+.what-we-believe h3{
+  color:#000;
+  font-size: 3rem;
+ line-height: 200%;
+ 
+}
+.what-we-believe h2{
+  color:#000;
+  font-size: 2.7rem;
+ line-height: 200%;
+}
+.list-style{
+
+}
+.holy-sprit-works{
+  line-height:150%;
+  color:black;
+  font-size: 3rem;
+  text-align: center;
+  padding:70px 30px 0px;
+}
+.bg-ed-preaching {
+  -webkit-box-shadow: 0px 10px 13px -7px #000000, 0px 5px 15px 5px rgba(0,0,0,0); 
+  box-shadow: 0px 10px 13px -7px #000000, 0px 5px 15px 5px rgba(0,0,0,0);
+  }
+.centered-image{
+position:absolute;
+top:50%;
+left:50;
+transform:translate(-50%,-50%);
+max-width:100%;
+max-height:100%;
+}
+.bg{
+  background-image:url(./components/images/img21.jpg);
+  width:100%;
+  height:100%;
+  background-size:cover;
+}
+
+.right{
+width:50%;
+min-height:300px;
+background-color:aquamarine;
+display:flex;
+align-items:center;
+padding:30px;
+border-radius:8px;
+color:white;
+margin-left:-150px;
+}
+.ed-prophet-about{ 
+  height:100%;
+  display:block;
+  padding-bottom:100px;
+  margin-top:100px;
+ 
+}     
+.ed-prophet-about h1, h2, h3{
+text-align: left;
+}
+.ed-prophet-about h1{
+font-size: 3.5rem;
+font-weight: bold;
+
+}
+.ed-prophet-about h2{
+  font-size: 2.5em;
+  line-height: 200%;
+  /* padding-bottom:20px; */
+}
+.ed-prophet-about h3{
+    font-size: 2rem;  
+}
+.ed-prophet-about p
+{
+  font-size:1.2rem;
+}
+.about-holy-sprit{
+ padding:50px;
+ 
+}
+.about-holy-sprit h1{
+  line-height: 150%; 
+  padding:30px;
+  text-align: center;
+  font-size: 3rem;
+}
+.topImage {position:relative;height:100%;width:100%; text-align: center; background:#161515;}
+.curved p{ 
+  display:block;
+}
+.ed-prophet-singing{
+  background-image:url(./components/images/ed-singing.jpg);
+  background-position: center;
+  background-size:cover;
+  background-repeat: no-repeat;  
+  width: 100vw;
+  height: 100vh;
+}
+.church-leadership{
+  margin-top:-30px;
+  color:red;
+  margin-bottom:50px;
+  text-align: center;
+}
+ul.list-style {}
+ul.list-style li{margin-left:30px;padding:10px}
+.cross{
+  background-image:url(./components/images/cross.jpg);
+  background-position: center;
+  background-size:cover;
+  background-repeat: no-repeat;  
+  width:100%;
+  height:100%; 
+}
+.we-belive-cover{margin-top:70px;margin-bottom:70px;}
+.center-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh; /* Adjust as needed */
+  
+}
+.bg-footer{
+  background-image:url(./components/images/fire-anointing.jpg);
+  background-position: top;
+  /* background-size:cover; */
+  background-repeat: no-repeat;  
+  width:100%;
+  height:100%;
+  color:white;
+}
+.footer-bottom{
+  color:#fff;
+  background-color: #000;
+  font-size: 1rem;
+  text-align: center;
+  padding:40px;
+}
+.solution{
+  font-size:3rem;
+  padding:10px;
+  color:red;
+}
+
+.gallery-images{
+  padding:50px 0px;
+  background:black;
+
+}
+.image-with-text {
+  position: relative;
+}
+
+.text-overlay {
+  position: absolute;  
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white; /* Text color */
+  background-color: rgba(0, 0, 0, 0.7); /* Background color with transparency */
+  padding: 20px; /* Adjust padding as needed */
+  border-radius: 20px;  
+}
+.text-overlay h1{line-height: 150%;}
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes:"“" "”" ;
+}
+
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+/* blockquote p {
+  display: inline;
+} */
+@media (max-width: 576px) {
+  /* .text-overlay {
+    width: 100%; 
+    bottom:0px;
+    left: 50%;  
+    border-radius: 0px; 
+    position:absolute;
+    transform: translateX(-50%);  
+    background:#000;
+    color:#fff;
+    display:block;
+  } */
+
+  .text-overlay {
+    width: 100%; /* Adjust width as needed */   
+    position:unset;
+    bottom:0px;
+    left: 0;  
+    border-radius: 0px; 
+    -webkit-transform: none;
+    transform: none;
+    background:#000;
+    color:#fff;
+    display:block;
+  }
+
+  /* .text-overlay h1 {font-size:1.5rem;line-height: 150%;} */
+}
+.cover-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensure the image covers the entire space while maintaining aspect ratio */
+}
+
+.pray-of-war-about{
+  padding:30px 0px;
+}
+.pray-of-war-about h1{
+line-height: 150%;
+font-size: 3rem;
+text-align: center;
+}
+.pray-of-war-about h2{
+  line-height: 150%;
+  font-size:2rem;
+  text-align: center;
+  }
+.pray-of-war-about h3{
+   
+    font-size: 1.5rem;;
+    text-align: center;
+ }
+
+.custom-margins {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.contact{background:red;height:300px;}
+.vkbg{
+  background:white;
+  border-radius:3rem;
+}
+.vk-title1{
+ color:rgb(18, 18, 231);
+  font-size:3rem;
+  
+}
+.vk-title2{
+  padding:10px 15px 15px 15px;
+  font-size:2.5rem;
+}
+a.btn.btn-outline-primary.ms-2 {border:none;}
+.vk-bottom-margin{margin-bottom: 70px;}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.video-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px; /* Optional: Set max-width for the container */
+  width: 100%;
+}
+
+.video-wrapper {
+  margin-bottom: 16px; /* Optional: Add margin between videos */
+}
+.player-wrapper {
+  position: relative;
+  padding-top: 56.25%; /* 16:9 aspect ratio */
+}
+
+.react-player {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.menu-link { 
+  overflow: hidden;
+
+}
+
+.menu-link ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-link li {
+  float: left;
+}
+
+.menu-link a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.menu-link a:hover { 
+  color: black;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+
+@media screen and (max-width: 780px) {
+  
+  a.navbar-brand{position:absolute; top:15px;
+    left:100px; display:block;}
+                                                
+  div#navbarSupportedContent {
+    margin-top: 20px;
+}
+  .menu-link li {
+      float: none;
+      display: block;
+      text-align: left; 
+      padding:10px;   
+  }
+  .menu-link li a{
+    text-align:center;
+    font-size:1.5rem;   
+  }
+  .menu-link ul {
+      overflow: hidden;
+      list-style-type: none;
+  }
+li.nav-item { 
+  margin-left:-10px;
+  padding: 10px;
+
+}
+
+ul.navbar-nav {         
+padding-left:20px;
+padding-bottom:0px;
+margin-bottom:0px;            
+ }
+ .image-ed{  
+  margin-top:0px;
+
+}
+
+}
+
+@media screen and (max-width: 425px) {
+  a.navbar-brand{position:absolute; top:15px;
+    left:80px; display:block;}
+  
+}
+
+/* about*/
+
