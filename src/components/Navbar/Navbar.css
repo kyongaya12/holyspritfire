@@ -102,7 +102,7 @@
     width: 2rem;
     height: 2rem;
   }
-  
+  .HolySprit-logo{display:block;margin-right:10px;}
   @media screen and (max-width: 960px) {
     .nav-menu {
       display: flex;
@@ -150,6 +150,7 @@
       width: 2rem;
       height: 2rem;
       cursor: pointer;
-      color: #ffdd40;
+      color: #f80808;
     }
+  
   }

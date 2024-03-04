@@ -163,19 +163,21 @@ margin-left:-150px;
 text-align: left;
 }
 .ed-prophet-about h1{
-font-size: 3rem;
+font-size: 3.5rem;
 font-weight: bold;
 
 }
 .ed-prophet-about h2{
-  font-size: 2.5rem;
+  font-size: 2.5em;
+  line-height: 200%;
+  /* padding-bottom:20px; */
 }
 .ed-prophet-about h3{
     font-size: 2rem;  
 }
 .ed-prophet-about p
 {
-  font-size:1.5rem;
+  font-size:1.2rem;
 }
 .about-holy-sprit{
  padding:50px;
@@ -271,8 +273,9 @@ blockquote {
   border-left: 10px solid #ccc;
   margin: 1.5em 10px;
   padding: 0.5em 10px;
-  quotes: "\201C""\201D""\2018""\2019";
+  quotes:"“" "”" ;
 }
+
 blockquote:before {
   color: #ccc;
   content: open-quote;
@@ -401,7 +404,7 @@ a.btn.btn-outline-primary.ms-2 {border:none;}
   overflow: hidden;
 
 }
-
+.book-list{padding-left: 40px;}
 .menu-link ul {
   list-style-type: none;
   margin: 0;
@@ -473,7 +476,16 @@ margin-bottom:0px;
   margin-top:0px;
 
 }
-
+.about-holy-sprit h1{
+  line-height: 150%; 
+  padding:0px;
+  text-align: center;
+  font-size: 2rem;
+}
+.about-holy-sprit {
+  /* padding: 50px; */
+  padding-top: 30px;
+}
 }
 
 @media screen and (max-width: 425px) {

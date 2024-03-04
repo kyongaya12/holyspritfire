@@ -39,13 +39,13 @@ const Book = () => {
         <div className="col-md-6 p-0 ">         
             <img src={imageCall} alt="Contact Us" className="img-fluid " />
 
-            <h2>이 책은 한국어로 출판될 예정입니다. 관심있는분 연락바랍니다.</h2>
+            <h3 className="pt-4">이 책은 한국어로 출판될 예정입니다. <br/>관심있는분 연락바랍니다.</h3>
             <h3>영문책 구입문의 <a href="https://www.edcitronnelliministries.co/product-page/prayers-of-war-hardcover" target="_shelf">영적 전쟁기도</a></h3>
         </div>
   
         {/* Text Column */}
-        <div className="col-md-6">    
-      <h2>책 목차 </h2>
+        <div className="col-md-6 book-list">    
+      <h2 >책 목차 </h2>
 <p> 제 1장 폭력과 갈등의 사역</p>
 <p>제 2장 싸우지 않는 자는 고난을 겪을 것이다</p>
 <p>제 3장 영적 전쟁에서 성공하는 방법</p>

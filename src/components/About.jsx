@@ -6,7 +6,7 @@ import imageCall2 from './images/holy-sprit-with-ed1.jpg'
 import imageCall1 from './images/holy-sprit-with-ed-mobile1.jpg'
 import Gallery from './Gallery';
 const About = () => {
-    const isMobile = window.matchMedia("(max-width: 768px)").matches;
+    const isMobile = window.matchMedia("(max-width: 780px)").matches;
     return (
         <div>
 <div class="container-fluid">

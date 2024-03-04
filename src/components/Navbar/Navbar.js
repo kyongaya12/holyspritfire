@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import "./Navbar.css";
+import imageLogo from '../images/dove copy.png'
+
 import { CodeIcon, HamburgetMenuClose, HamburgetMenuOpen } from "./Icons";
 const Navbar = () => {
     const [click, setClick] = useState(false);
@@ -9,7 +11,7 @@ const Navbar = () => {
       <>
         <nav className="navbar">
           <div className="nav-container">
-            <NavLink exact to="/" className="nav-logo">
+            <NavLink exact to="/" className="nav-logo">  <img src={imageLogo} alt="Logo"  className="HolySprit-logo" />
               <span>Holy Sprit Fire 
               성령의 불</span>
               {/* <i className="fas fa-code"></i> */}
