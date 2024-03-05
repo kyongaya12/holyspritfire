@@ -1,13 +1,15 @@
-import React from 'react'
+
+import React from 'react';
 import imageCall from './images/prayers-of-wars.jpg';
 import imageCall2 from './images/성령의 불 기도.jpg';
 import imageCall1 from './images/성령의 불 기도 mobile.jpg';
 const Book = () => {
+
   const isMobile = window.matchMedia("(max-width: 768px)").matches;
   return (
     <div >
-     
-    <div className="container-fluid" style={{background:'black'}}>
+    
+    <div className="container-fluid " style={{background:'black'}}>
         <div className="container p-0">
       <div className="row p-0">
           {/* <div className="col-md-12 text-center">         
@@ -26,8 +28,8 @@ const Book = () => {
         </div>
       </div>
     </div>
-   
-    <div className="container">
+
+    <div className="container ">
       <div className="row pray-of-war-about">
     <h1>영적 전쟁기도</h1>
 <h2>사탄의 사슬, 방해 및 악마적 작용을 깨는 즉각적인 결과를 위한 기도</h2>
@@ -36,8 +38,8 @@ const Book = () => {
       </div>
       <div className="row">
         {/* Image Column */}
-        <div className="col-md-6 p-0 ">         
-            <img src={imageCall} alt="Contact Us" className="img-fluid " />
+        <div className="col-md-6 ">         
+            <img src={imageCall} alt="영적 전쟁기도" className="img-fluid " />
 
             <h3 className="pt-4">이 책은 한국어로 출판될 예정입니다. <br/>관심있는분 연락바랍니다.</h3>
             <h3>영문책 구입문의 <a href="https://www.edcitronnelliministries.co/product-page/prayers-of-war-hardcover" target="_shelf">영적 전쟁기도</a></h3>
@@ -120,7 +122,7 @@ const Book = () => {
        
         </div>
       </div>
-      
+    
     </div>
   )
 }
