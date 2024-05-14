@@ -24,15 +24,11 @@ const Footer = () => {
    <div className="col-md-4 pt-5">
    <h3> 뉴욕: 프러싱</h3>
    <p>Time:  Sunday 11:00 AM</p>
-   <p>Sheraton LaGuardia East Hotel 7Floor</p>
-   <p>135-20 39th Ave, Flushing, NY 11354</p>   
+   <p>Adria Hotel</p>
+   <p>221-17 Northern Blvd, Bayside, NY 11361</p>   
     </div>
     <div className="col-md-4 pt-5">
-         <h3>뉴욕: 브랑스</h3>
-     <p>Time:  Wendesday 7:30 PM</p>
-     <p> Residence Inn by Marriott New York </p>
-     <p> at Metro Ctr Atrium 1776</p>
-     <p>Eastchester Road, Bronx, NY 10461</p>
+     
    </div>
    
      <div className="col-md-4 pt-5">
